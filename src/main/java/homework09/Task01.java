@@ -20,24 +20,19 @@ package homework09;
  */
 
 import java.util.Scanner;
-
 public class Task01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Добро пожаловать в Калькулятор операций ");
         boolean resultTrue = true;
-
         while (resultTrue) {
-
             while (resultTrue) {
-
                 System.out.println("Выберите операцию (сложение (+), вычитание (-), умножение (*), деление (/))");
                 String operators = scanner.next();
                 boolean add = operators.equals("+");
                 boolean sub = operators.equals("-");
                 boolean multiplication = operators.equals("*");
                 boolean division = operators.equals("/");
-
                 if (add || sub || multiplication || division) {
                     if (add) {
                         System.out.println("Введите два числа ");
@@ -100,7 +95,6 @@ public class Task01 {
             while (resultTrue) {
                 System.out.println("Хотите ли ВЫ продолжить выполнение операций? Введите: YES или NO");
                 String answer = scanner.next();
-
                     if (answer.equalsIgnoreCase("yes")) {
                         System.out.println("Хорошо мы продолжим вычисления");
                         resultTrue = false;
@@ -120,6 +114,3 @@ public class Task01 {
         scanner.close();
     }
 }
-
-
-

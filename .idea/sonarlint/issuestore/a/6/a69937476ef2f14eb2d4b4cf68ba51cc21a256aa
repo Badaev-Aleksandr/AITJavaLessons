@@ -1,0 +1,22 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£№€ј
+[
+java:S1854""ERemove this useless assignment to local variable "resultRegionPrice".(ївЅш
+\
+java:S1854"ARemove this useless assignment to local variable "sumDressPrice".(Ујыпы€€€€
+b
+java:S1854"GRemove this useless assignment to local variable "sumElectronicsPrise".(ЊІИ”ъ€€€€
+\
+java:S1854/"ARemove this useless assignment to local variable "sumDressPrice".(Ујыпы€€€€
+b
+java:S1854."GRemove this useless assignment to local variable "sumElectronicsPrise".(ЊІИ”ъ€€€€
+S
+java:S1481"8Remove this unused "sumElectronicsPrise" local variable.(ЊІИ”ъ€€€€
+M
+java:S1481"2Remove this unused "sumDressPrice" local variable.(Ујыпы€€€€
+L
+java:S1481""6Remove this unused "resultRegionPrice" local variable.(ївЅш
+S
+java:S1481."8Remove this unused "sumElectronicsPrise" local variable.(ЊІИ”ъ€€€€
+M
+java:S1481/"2Remove this unused "sumDressPrice" local variable.(Ујыпы€€€€
