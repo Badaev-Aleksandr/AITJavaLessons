@@ -100,27 +100,16 @@ public class Task01 {
             while (resultTrue) {
                 System.out.println("Хотите ли ВЫ продолжить выполнение операций? Введите: YES или NO");
                 String answer = scanner.next();
-                boolean resultFalse = false;
-
-                while (resultTrue) {
 
                     if (answer.equalsIgnoreCase("yes")) {
                         System.out.println("Хорошо мы продолжим вычисления");
                         resultTrue = false;
                         resultYes = true;
-
                     } else if (answer.equalsIgnoreCase("no")) {
                         resultTrue = false;
-
                     } else {
                         System.out.println("Вы ввели не корректное значение!");
-                        resultTrue = false;
-                        resultFalse = true;
                     }
-                }
-                if (resultFalse) {
-                    resultTrue = true;
-                }
             }
             if (resultYes) {
                 resultTrue = true;
