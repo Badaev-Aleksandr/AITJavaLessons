@@ -4,49 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c42a532-1936-4e48-a45e-221c546f76c6" name="Changes" comment="initial commit HomeWork09 update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/consultation0210/Task01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/consultation0210/Task02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/consultation0210/Task03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/consultation0210/Task04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/MyLife.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/Task01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/Task02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/Task03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework05/HomeWork05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework06/Task01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework06/Task02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework06/Task03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework07/Task01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework07/Task02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework08/Task01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework08/Task02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework08/Task03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework08/Task04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson02/Lessonswork01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson02/Variables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson03/LesseonsWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson03/LesseonsWork02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson03/Task03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson03/Task04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson03/Task05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson04/CleanCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson05/Operators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson06/Task01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson06/Task02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson07/Task01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson07/Task02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson07/Task03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson07/Task04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson08/Task01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson08/Task02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson08/Task03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson08/Task04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson08/Task0401.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson08/Task05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson09/Task01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework09/Task01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework09/Task01.java" afterDir="false" />
-    </list>
+    <list default="true" id="5c42a532-1936-4e48-a45e-221c546f76c6" name="Changes" comment="initial commit HomeWork09 update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
