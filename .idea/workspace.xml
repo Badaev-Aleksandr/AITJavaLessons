@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c42a532-1936-4e48-a45e-221c546f76c6" name="Changes" comment="initial commit HomeWork09 update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework09/Task02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/1905213d71c9c805680bf7e31b476263f50cfd93" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/1905213d71c9c805680bf7e31b476263f50cfd93" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a3e6f1fe8c15f02514111fcfba64327d5f603e48" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a3e6f1fe8c15f02514111fcfba64327d5f603e48" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="5c42a532-1936-4e48-a45e-221c546f76c6" name="Changes" comment="initial commit HomeWork09 02">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8fc6e36c4e196232390585eafa824a0ced219730" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8fc6e36c4e196232390585eafa824a0ced219730" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/consultation0217/Task01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework09/Task01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework09/Task01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,13 +219,38 @@
       <option name="project" value="LOCAL" />
       <updated>1708185518789</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="initial commit HomeWork09 02">
+      <option name="closed" value="true" />
+      <created>1708291393059</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708291393059</updated>
+    </task>
+    <task id="LOCAL-00006" summary="initial commit HomeWork09 02">
+      <option name="closed" value="true" />
+      <created>1708291515595</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708291515595</updated>
+    </task>
+    <task id="LOCAL-00007" summary="initial commit HomeWork09 02">
+      <option name="closed" value="true" />
+      <created>1708292557386</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708292557387</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit HomeWork09" />
     <MESSAGE value="initial commit HomeWork06" />
     <MESSAGE value="initial commit HomeWork09 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit HomeWork09 update" />
+    <MESSAGE value="initial commit HomeWork09 02" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit HomeWork09 02" />
   </component>
 </project>
