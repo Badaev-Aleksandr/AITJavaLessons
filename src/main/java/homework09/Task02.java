@@ -53,9 +53,10 @@ public class Task02 {
             System.out.println("У Вас есть 7 попыток чтобы Угадать Число");
             System.out.println("Введите число чтобы угадать Загаданное число Компьютером от 0 до 100");
             while (cycle) {
-                if (scanner.hasNextInt()) {
-                    int answerOne = scanner.nextInt();
-                    if (shot < 7) {
+                if (shot < 7) {
+                    if (scanner.hasNextInt()) {
+                        int answerOne = scanner.nextInt();
+
                         if (answerOne > randomNumber) {
                             System.out.println("слишком большое");
                             System.out.println("Попробуйте снова");
@@ -84,25 +85,25 @@ public class Task02 {
                             }
                         }
                     } else {
-                        System.out.println("Упсс Вы превысили количество разрешенных попыток! Вы проиграли!");
-                        while (cycle) {
-                            System.out.println("Хотите ли ВЫ продолжить Игру ? Введите: YES или NO" + b);
-                            String answerTwo = scanner.next();
-                            if (answerTwo.equalsIgnoreCase("yes")) {
-                                System.out.println("Хорошо мы продолжаем Игру" + " " + a);
-                                cycle = false;
-                            } else if (answerTwo.equalsIgnoreCase("no")) {
-                                repeat = false;
-                                cycle = false;
-                            } else {
-                                System.out.println(c + "Вы ввели не корректное значение!" + c);
-                            }
+                        System.out.println(c + "ERROR!!! Вы ввели не число" + c);
+                        System.out.println("Введите число чтобы Играть !");
+                        scanner.next();
+                    }
+                } else {
+                    System.out.println("Упсс Вы превысили количество разрешенных попыток! Вы проиграли!");
+                    while (cycle) {
+                        System.out.println("Хотите ли ВЫ продолжить Игру ? Введите: YES или NO" + b);
+                        String answerTwo = scanner.next();
+                        if (answerTwo.equalsIgnoreCase("yes")) {
+                            System.out.println("Хорошо мы продолжаем Игру" + " " + a);
+                            cycle = false;
+                        } else if (answerTwo.equalsIgnoreCase("no")) {
+                            repeat = false;
+                            cycle = false;
+                        } else {
+                            System.out.println(c + "Вы ввели не корректное значение!" + c);
                         }
                     }
-                    }else {
-                    System.out.println(c + "ERROR!!! Вы ввели не число" + c);
-                    System.out.println("Введите число чтобы Играть !");
-                    scanner.next();
                 }
             }
         }
