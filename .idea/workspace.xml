@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c42a532-1936-4e48-a45e-221c546f76c6" name="Changes" comment="initial commit HomeWork09 update" />
+    <list default="true" id="5c42a532-1936-4e48-a45e-221c546f76c6" name="Changes" comment="initial commit HomeWork09 update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework09/Task02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/1905213d71c9c805680bf7e31b476263f50cfd93" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/1905213d71c9c805680bf7e31b476263f50cfd93" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a3e6f1fe8c15f02514111fcfba64327d5f603e48" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a3e6f1fe8c15f02514111fcfba64327d5f603e48" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/consultation0217/Task01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework09/Task01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework09/Task01.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,65 +40,67 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.BlockTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DynInit.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForEksepmle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HomeWork05.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LesseonsWork.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LesseonsWork02.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lessonswork01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyLife.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Operator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Operators.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task02.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task03.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task04.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task0401.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Task0402.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task04TAX.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task05.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task0502.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Variables.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Words.executor&quot;: &quot;Run&quot;,
-    &quot;Application.consultation01.Task01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.consultation01.Task02.executor&quot;: &quot;Run&quot;,
-    &quot;Application.consultation01.Task03.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.homework01.MyLife.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework02.Task03.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework06.Task01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework06.Task02.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework07.Task01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework08.Task02.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework08.Task03.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework09.Task01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson07.Task02.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson08.Task02.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.lesson08.Task03.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.lesson08.Task04.executor&quot;: &quot;Run&quot;,
-    &quot;Application.primer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.sddff.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.BlockTest.executor": "Run",
+    "Application.DynInit.executor": "Run",
+    "Application.ForEksepmle.executor": "Run",
+    "Application.ForTest.executor": "Run",
+    "Application.HomeWork05.executor": "Run",
+    "Application.LesseonsWork.executor": "Run",
+    "Application.LesseonsWork02.executor": "Run",
+    "Application.Lessonswork01.executor": "Run",
+    "Application.MyApp.executor": "Run",
+    "Application.MyLife.executor": "Run",
+    "Application.Operator.executor": "Run",
+    "Application.Operators.executor": "Run",
+    "Application.Task01.executor": "Run",
+    "Application.Task02.executor": "Run",
+    "Application.Task03.executor": "Run",
+    "Application.Task04.executor": "Run",
+    "Application.Task0401.executor": "Debug",
+    "Application.Task0402.executor": "Run",
+    "Application.Task04TAX.executor": "Run",
+    "Application.Task05.executor": "Run",
+    "Application.Task0502.executor": "Run",
+    "Application.Variables.executor": "Run",
+    "Application.Words.executor": "Run",
+    "Application.consultation01.Task01.executor": "Run",
+    "Application.consultation01.Task02.executor": "Run",
+    "Application.consultation01.Task03.executor": "Debug",
+    "Application.consultation0217.Task01.executor": "Run",
+    "Application.emogy.executor": "Run",
+    "Application.homework01.MyLife.executor": "Run",
+    "Application.homework02.Task03.executor": "Run",
+    "Application.homework06.Task01.executor": "Run",
+    "Application.homework06.Task02.executor": "Run",
+    "Application.homework07.Task01.executor": "Run",
+    "Application.homework08.Task02.executor": "Run",
+    "Application.homework08.Task03.executor": "Run",
+    "Application.homework09.Task01.executor": "Run",
+    "Application.lesson07.Task02.executor": "Run",
+    "Application.lesson08.Task02.executor": "Debug",
+    "Application.lesson08.Task03.executor": "Debug",
+    "Application.lesson08.Task04.executor": "Run",
+    "Application.primer.executor": "Run",
+    "Application.sddff.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="homework02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.homework09.Task01">
+  <component name="RunManager" selected="Application.Task02">
     <configuration name="Task01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson09.Task01" />
       <module name="AITJavaLessons" />
@@ -103,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework08.Task04" />
+    <configuration name="Task02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework09.Task02" />
       <module name="AITJavaLessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework08.*" />
+          <option name="PATTERN" value="homework09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework08.Task02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework08.Task02" />
+    <configuration name="consultation0217.Task01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="consultation0217.Task01" />
       <module name="AITJavaLessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework08.*" />
+          <option name="PATTERN" value="consultation0217.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework08.Task03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework08.Task03" />
+    <configuration name="emogy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework09.emogy" />
       <module name="AITJavaLessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework08.*" />
+          <option name="PATTERN" value="homework09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task02" />
+        <item itemvalue="Application.emogy" />
         <item itemvalue="Application.homework09.Task01" />
+        <item itemvalue="Application.consultation0217.Task01" />
         <item itemvalue="Application.Task01" />
-        <item itemvalue="Application.homework08.Task02" />
-        <item itemvalue="Application.Task04" />
-        <item itemvalue="Application.homework08.Task03" />
       </list>
     </recent_temporary>
   </component>

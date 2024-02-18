@@ -20,6 +20,7 @@ package homework09;
  */
 
 import java.util.Scanner;
+
 public class Task01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -104,13 +105,13 @@ public class Task01 {
                     } else {
                         System.out.println("Вы ввели не корректное значение!");
                     }
+                }
+                if (resultYes) {
+                    resultTrue = true;
+                }
             }
-            if (resultYes) {
-                resultTrue = true;
-            }
+            System.out.println(" До новых встреч ");
+            System.out.println(" На создание этой программы ушло 7 часов");
+            scanner.close();
         }
-        System.out.println(" До новых встреч ");
-        System.out.println(" На создание этой программы ушло 7 часов");
-        scanner.close();
     }
-}

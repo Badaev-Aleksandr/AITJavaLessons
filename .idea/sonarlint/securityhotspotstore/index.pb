@@ -11,3 +11,7 @@ T
 $src/main/java/homework09/Task01.java,a\3\a3e6f1fe8c15f02514111fcfba64327d5f603e48
 Z
 *src/main/java/consultation0217/Task01.java,1\9\1905213d71c9c805680bf7e31b476263f50cfd93
+T
+$src/main/java/homework09/Task02.java,8\f\8fc6e36c4e196232390585eafa824a0ced219730
+S
+#src/main/java/homework09/emogy.java,c\4\c463c2a020e8a9415668c4361b647682a4410fe5
