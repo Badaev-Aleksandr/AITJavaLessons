@@ -108,5 +108,6 @@ public class Task02 {
         }
         System.out.println(" Спасибо за игру");
         System.out.println("До новых встреч ");
+        scanner.close();
     }
 }
