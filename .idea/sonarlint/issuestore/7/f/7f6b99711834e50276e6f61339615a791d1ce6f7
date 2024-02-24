@@ -1,0 +1,7 @@
+
+h
+java:S1301
+"KReplace this "switch" statement by "if" statements to increase readability.(ìè²ë8œ—–ÂÜ1
+{
+java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "result".(ã‡ÂÔ8œ—–ÂÜ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŞâƒĞûÿÿÿÿ8—–ÂÜ1

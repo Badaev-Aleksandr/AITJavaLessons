@@ -46,8 +46,7 @@ public class Task02 {
         String c = "\uD83E\uDEE8";
         System.out.println("Добро пожаловать в игру --------Угадай Число-------- ");
         while (repeat) {
-            double number = Math.random() * 100;
-            int randomNumber = (int) number;
+            int randomNumber = (int) (Math.random()*100) + 1;
             boolean cycle = true;
             int shot = 0;
             System.out.println("У Вас есть 7 попыток чтобы Угадать Число");
@@ -61,13 +60,11 @@ public class Task02 {
                             System.out.println("слишком большое");
                             System.out.println("Попробуйте снова");
                             shot++;
-                        }
-                        if (answerOne < randomNumber) {
+                        }else if (answerOne < randomNumber) {
                             System.out.println("слишком маленькое");
                             System.out.println("Попробуйте снова");
                             shot++;
-                        }
-                        if (answerOne == randomNumber) {
+                        }else if (answerOne == randomNumber) {
                             System.out.println(a + " " + "Вы угадали" + " " + a);
                             System.out.println("Вы использовали " + shot + " Попыток чтобы угадать Число");
                             while (cycle) {

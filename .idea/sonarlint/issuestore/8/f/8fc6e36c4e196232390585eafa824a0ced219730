@@ -1,4 +1,8 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–£Ş¡ûÿÿÿÿ8ÊóñÛ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–£Ş¡ûÿÿÿÿ8¢ú¼Ü1
+Y
+java:S2589C"7Remove this expression which always evaluates to "true"(Ë³°Ğûÿÿÿÿ8ÃÎô½Ü1
 o
-java:S3776)"RRefactor this method to reduce its Cognitive Complexity from 53 to the 15 allowed.(Çµí‘8àóñÛ1
+java:S3776)"RRefactor this method to reduce its Cognitive Complexity from 45 to the 15 allowed.(Çµí‘8Ç£ú¼Ü1
+K
+java:S21401")Use "java.util.Random.nextInt()" instead.(ˆ¿¤Üûÿÿÿÿ8Ù£ú¼Ü1
