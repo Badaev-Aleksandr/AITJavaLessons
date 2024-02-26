@@ -4,12 +4,12 @@ public class JavaMethods {
     public static void main(String[] args) {
         printGreeting();
         printGreetingStudent("Anna");
-        printGreetingStudent("Anna ", 42.2);
-        boolean checkResult = checkStudent("anna");
+        printGreetingStudent("Anna", 42.2);
+        boolean checkResult = checkStudent("Anna");
         System.out.println(checkResult);
-       // checkGroupNumber(234);
-        int checkNumber = getFactorial(5);
-        System.out.println(checkNumber);
+        //checkGroupNumber(234);
+        int factorial = getFactorial(5);
+        System.out.println(factorial);
     }
 
     public static void printGreeting() {
@@ -21,28 +21,40 @@ public class JavaMethods {
     }
 
     public static void printGreetingStudent(String studentName, double groupNumber) {
-        System.out.println("Hallo " + studentName + "your group " + groupNumber);
+        System.out.println("Hallo " + studentName + " your group " + groupNumber);
     }
 
     public static boolean checkStudent(String studentName) {
-        if (studentName.equalsIgnoreCase("Anna")) {
+        if (studentName.equals("Anna")) {
             return true;
         } else {
             return false;
         }
-
-        //return studentName.equalsIgnoreCase("Anna");
+        //return  studentName.equals("Anna");
     }
-    public static void checkGroupNumber (double groupNumber){
+
+    public static boolean checkGroupNumber(double groupNumber) {
         System.out.println(groupNumber);
-
+        if (groupNumber == 123) {
+            return true;
+        } else
+            return false;
     }
-    // расчет факториала
-    public  static  int getFactorial (int number){
-        if (number == 1){
+
+    //название; findUserByName
+    //количество параметров: 3-4 >5--> рефакторинг
+    //простота метода
+    //комментарии
+    //валидация входящих параметров
+
+    //расчет факториала
+    public static int getFactorial(int number){
+        if(number == 1){
             return 1;
-        }else {
-            return number * getFactorial((number - 1));
+        }
+        else {
+            return  number * getFactorial((number -1));
         }
     }
+
 }

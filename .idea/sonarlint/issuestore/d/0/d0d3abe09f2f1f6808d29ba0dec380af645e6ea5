@@ -1,7 +1,9 @@
 
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¤à¶í8ëï´“Ý1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¤à¶í8Æ¬»ŒÞ1
 X	java:S125
-"<This block of commented-out lines of code should be removed.(úèÜé8öï´“Ý1
+"<This block of commented-out lines of code should be removed.(úèÜé8ÉÑ¿ŒÞ1
+c
+java:S1126"AReplace this if-then-else statement by a single return statement.(ÿØÙùúÿÿÿÿ8ÐÑ¿ŒÞ1
+]	java:S125!"<This block of commented-out lines of code should be removed.(„ó°äÿÿÿÿÿ8ÑÑ¿ŒÞ1
 ^
-java:S1126"AReplace this if-then-else statement by a single return statement.(ö½´¿8÷ï´“Ý1
-X	java:S125""<This block of commented-out lines of code should be removed.(î†Ü‹8ê©¸“Ý1
+java:S1126&"AReplace this if-then-else statement by a single return statement.(ÆÅœª8ÒÑ¿ŒÞ1

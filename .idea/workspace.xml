@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c42a532-1936-4e48-a45e-221c546f76c6" name="Changes" comment="initial commit HomeWork09 02">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/58bc4783d9f851795eed3ebe4cbd2034c411ba6e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/6158e4f9f1c8a75f8262efd8ca88ac6b0c3ab1b3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6aec3e9a4cbb9656b3e7d6d347986ae4b891af17" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f6b99711834e50276e6f61339615a791d1ce6f7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/8/58bc4783d9f851795eed3ebe4cbd2034c411ba6e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/1/6158e4f9f1c8a75f8262efd8ca88ac6b0c3ab1b3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/a/6aec3e9a4cbb9656b3e7d6d347986ae4b891af17" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/f/7f6b99711834e50276e6f61339615a791d1ce6f7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8fc6e36c4e196232390585eafa824a0ced219730" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8fc6e36c4e196232390585eafa824a0ced219730" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/StringProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d0d3abe09f2f1f6808d29ba0dec380af645e6ea5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d0d3abe09f2f1f6808d29ba0dec380af645e6ea5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fdfaaa39c7d17183c86f39a9d4346f65cde8a3fc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fdfaaa39c7d17183c86f39a9d4346f65cde8a3fc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework09/Task02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework09/Task02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson12/JavaMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson12/JavaMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson12/Task01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson12/Task01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson12/Task02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson12/Task02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +54,7 @@
     "Application.GetPersonDates.executor": "Run",
     "Application.HomeWork05.executor": "Run",
     "Application.JavaMethods.executor": "Run",
+    "Application.JavaMethodsTask01.executor": "Run",
     "Application.JavaSwitchCase.executor": "Run",
     "Application.LesseonsWork.executor": "Run",
     "Application.LesseonsWork02.executor": "Run",
@@ -67,6 +63,7 @@
     "Application.MyLife.executor": "Run",
     "Application.Operator.executor": "Run",
     "Application.Operators.executor": "Run",
+    "Application.StringProcessor.executor": "Run",
     "Application.Task.executor": "Run",
     "Application.Task01.executor": "Run",
     "Application.Task02.executor": "Run",
@@ -114,20 +111,7 @@
       <recent name="homework02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarDate">
-    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework11.Car" />
-      <module name="AITJavaLessons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StringProcessor">
     <configuration name="CarDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework11.CarDate" />
       <module name="AITJavaLessons" />
@@ -154,6 +138,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JavaMethodsTask01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework12.JavaMethodsTask01" />
+      <module name="AITJavaLessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework12.StringProcessor" />
+      <module name="AITJavaLessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson12.Task01" />
       <module name="AITJavaLessons" />
@@ -167,26 +177,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson12.Task02" />
-      <module name="AITJavaLessons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringProcessor" />
+        <item itemvalue="Application.JavaMethods" />
+        <item itemvalue="Application.JavaMethodsTask01" />
         <item itemvalue="Application.CarDate" />
         <item itemvalue="Application.Task01" />
-        <item itemvalue="Application.Task02" />
-        <item itemvalue="Application.JavaMethods" />
-        <item itemvalue="Application.Car" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708777808330</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="initial commit HomeWork09 02">
+      <option name="closed" value="true" />
+      <created>1708888549901</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708888549901</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -37,3 +37,9 @@ T
 $src/main/java/homework06/Task02.java,5\2\526951e9d11bff24f2bf7df9e1663bcc024b5836
 U
 %src/main/java/homework11/CarDate.java,6\b\6bf5ea8074c549cde94bb79eb317bc0b50dfe7e7
+[
++src/main/java/consultation0224/JavaFor.java,7\0\70edb637635707bc15a810ee05e0d28c824f8ce5
+_
+/src/main/java/homework12/JavaMethodsTask01.java,9\a\9ac18dbfaddae6ca13b922a5d95bb493075d4c9f
+]
+-src/main/java/homework12/StringProcessor.java,c\0\c0c5a94dc2f74774c54a9357f403a5bdca291dff
