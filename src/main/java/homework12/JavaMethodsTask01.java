@@ -1,5 +1,7 @@
 package homework12;
 
+import java.util.Scanner;
+
 /*
 Задание 1
 Задание: Напишите программу на Java, которая демонстрирует работу с методами.
@@ -12,14 +14,21 @@ package homework12;
  */
 public class JavaMethodsTask01 {
     public static void main(String[] args) {
-        double p = calculatePerimeter(234,345);
-        System.out.println(p);
-        double s = calculateArea(345,566);
-        System.out.println(s);
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("length:");
+        double a = scanner.nextDouble();
+        System.out.println("wight:");
+        double b = scanner.nextDouble();
+        double p = calculatePerimeter(a, b);
+        System.out.println("Perimeter: " + p);
+        double s = calculateArea(a, b);
+        System.out.println("Area: " + s);
     }
+
     public static double calculateArea(double a, double b) {
         return a * b;
     }
+
     public static double calculatePerimeter(double a, double b) {
         return 2 * (a + b);
     }
