@@ -1,5 +1,7 @@
 package homework12;
 
+import java.util.Scanner;
+
 /*
 Задание 2 (Сложное)
 Тема: Расширенная работа с методами в Java.
@@ -13,9 +15,13 @@ package homework12;
 public class StringProcessor {
 
     public static void main(String[] args) {
-        reverseString(new String("Дед"));
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите слово для проверки на Палиндром : ");
+        String word = scanner.nextLine();
+        reverseString(new String(word));
         boolean checkWord = isPalindrome();
         System.out.println(checkWord);
+        scanner.close();
     }
 
     static String normWord;
