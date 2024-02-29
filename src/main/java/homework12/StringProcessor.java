@@ -29,9 +29,9 @@ public class StringProcessor {
 
     public static void reverseString(String word) {
         normWord = word;
-        String sb = new StringBuilder(word).reverse().toString();
-        System.out.println(sb);
-        reverseWord = sb;
+        String reverseWordNew = new StringBuilder(word).reverse().toString();
+        System.out.println(reverseWordNew);
+        reverseWord = reverseWordNew;
     }
 
     public static boolean isPalindrome() {
