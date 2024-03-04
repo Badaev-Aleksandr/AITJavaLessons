@@ -43,16 +43,22 @@ public class ArraysHomeWork {
         Задание: Используя массив хобби (как в задаче 1), попросите пользователя ввести номер своего любимого хобби
         из списка. Выведите на экран название выбранного хобби.
          */
-        System.out.println("Enter the number of your favorite hobby from the list: ");
-        while (!scanner.hasNextInt()) {
-            System.out.println("You did not enter a number");
-            System.out.println("Pleas enter a number:");
-            scanner.next();
-        }int hobbyNumber = scanner.nextInt();
-        if (hobbyNumber > 0 && hobbyNumber < 5) {
-            System.out.println("Hobby number " + hobbyNumber + " is: " + myHobby[hobbyNumber - 1]);
-        } else System.out.println("Your number does not match the number of our numbers Hobby in the list!");
-
+        int cycle = 0;
+       do {
+           System.out.println("Enter the number 1-4 of your favorite hobby from the list: ");
+           while (!scanner.hasNextInt()) {
+               System.out.println("You did not enter a number");
+               System.out.println("Pleas enter a number:");
+               scanner.next();
+           }
+           int hobbyNumber = scanner.nextInt();
+           if (hobbyNumber > 0 && hobbyNumber < 5) {
+               System.out.println("Your favorite hobby number " + hobbyNumber + " is: " + myHobby[hobbyNumber - 1]);
+               cycle = 1;
+           } else {
+               System.out.println("Your number does not match the number of our numbers Hobby in the list!");
+           }
+       }while (cycle==0);
         System.out.println("---------------4----------------");
             /*
             Задача 4: Добавление хобби
