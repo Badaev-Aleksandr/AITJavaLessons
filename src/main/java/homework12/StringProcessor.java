@@ -27,11 +27,11 @@ public class StringProcessor {
     static String normWord;
     static String reverseWord;
 
-    public static void reverseString(String word) {
+    public static String reverseString(String word) {
         normWord = word;
         String reverseWordNew = new StringBuilder(word).reverse().toString();
-        System.out.println(reverseWordNew);
         reverseWord = reverseWordNew;
+        return word;
     }
 
     public static boolean isPalindrome() {
