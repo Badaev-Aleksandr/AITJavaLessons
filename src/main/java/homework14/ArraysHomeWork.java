@@ -1,6 +1,5 @@
 package homework14;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Arrays;
 
@@ -11,7 +10,9 @@ public class ArraysHomeWork {
   Задание: Создайте массив строк, который содержит список хобби (например, "рисование", "программирование", "велоспорт").
    Выведите все хобби из массива на экран.
    */
-    public static String[] myHobby = {"swim", "programming", "drone", "split"};
+    private static String[] myHobby = {"swim", "programming", "drone", "split"};
+    private static int[] rating = {9,10,8,7};
+
 
     public static void main(String[] args) {
         System.out.println("---------------1----------------");
@@ -44,21 +45,21 @@ public class ArraysHomeWork {
         из списка. Выведите на экран название выбранного хобби.
          */
         int cycle = 0;
-       do {
-           System.out.println("Enter the number 1-4 of your favorite hobby from the list: ");
-           while (!scanner.hasNextInt()) {
-               System.out.println("You did not enter a number");
-               System.out.println("Pleas enter a number:");
-               scanner.next();
-           }
-           int hobbyNumber = scanner.nextInt();
-           if (hobbyNumber > 0 && hobbyNumber < 5) {
-               System.out.println("Your favorite hobby number " + hobbyNumber + " is: " + myHobby[hobbyNumber - 1]);
-               cycle = 1;
-           } else {
-               System.out.println("Your number does not match the number of our numbers Hobby in the list!");
-           }
-       }while (cycle==0);
+        do {
+            System.out.println("Enter the number 1-4 of your favorite hobby from the list: ");
+            while (!scanner.hasNextInt()) {
+                System.out.println("You did not enter a number");
+                System.out.println("Pleas enter a number:");
+                scanner.next();
+            }
+            int hobbyNumber = scanner.nextInt();
+            if (hobbyNumber > 0 && hobbyNumber < 5) {
+                System.out.println("Your favorite hobby number " + hobbyNumber + " is: " + myHobby[hobbyNumber - 1]);
+                cycle = 1;
+            } else {
+                System.out.println("Your number does not match the number of our numbers Hobby in the list!");
+            }
+        } while (cycle == 0);
         System.out.println("---------------4----------------");
             /*
             Задача 4: Добавление хобби
@@ -77,10 +78,24 @@ public class ArraysHomeWork {
          Задание: Создайте два массива: один для хобби (как в задаче 1) и один для рейтинга каждого хобби (целые числа).
          Напишите программу, которая выводит хобби и их рейтинги в виде списка.
              */
-        int[] reting = new int[8];
+        showHobbiesAndRatings();
 
     }
+
+    public static void showHobbiesAndRatings() {
+        if (myHobby.length != rating.length) {
+            System.out.println("ERROR RATING!!!");
+        } else {
+            for (int i = 0; i < myHobby.length; i++) {
+                String hobby = myHobby[i];
+                int ratings = rating[i];
+                System.out.println(String.format("Хобби %s рейтинг %d", hobby, ratings));
+            }
+        }
+    }
 }
+
+
 
 
 
