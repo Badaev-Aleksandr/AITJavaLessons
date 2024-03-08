@@ -27,7 +27,7 @@ import java.util.Scanner;
 и оба массива, ищет это животное в массиве animalSpecies и выводит соответствующий звук из animalSounds.
  */
 public class Zoo {
-    private static String[] animalSpecies = {"Lion.", "Elephant.", "Monkey."};
+    private static String[] animalSpecies = {"Lion", "Elephant", "Monkey"};
     private static String[] animalSounds = {"growl", "trumpeting", "scream"};
 
 
@@ -35,7 +35,7 @@ public class Zoo {
         printAnimalSounds(animalSpecies, animalSounds);
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the name of the animal to find its sound: ");
-        String findSoundOfAnimal = scanner.next();
+        String findSoundOfAnimal = scanner.next().trim().toLowerCase();
         String soundOfAnimal = findAnimalSound(findSoundOfAnimal, animalSpecies, animalSounds);
         System.out.println(soundOfAnimal);
     }
@@ -53,12 +53,15 @@ public class Zoo {
             String animal = animalSpecies[i];
             String sound = animalSounds[i];
             if (findSoundOfAnimal.equalsIgnoreCase(animal)) {
-                return sound;
+                return "Animal " + animal + " makes a sound " + sound;
             }
         }
-        return findSoundOfAnimal; // <------Не понимаю почему просит вывести тут return findSoundOfAnimal
+        return "This animal is not on the list";
     }
 }
+
+
+
 
 
 
