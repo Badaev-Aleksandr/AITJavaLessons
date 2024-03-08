@@ -1,6 +1,4 @@
 
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(äşÃÊ8³÷Â«Ş1
-B
-java:S2129" Remove this "String" constructor(ë¤¡©ÿÿÿÿÿ8Î÷Â«Ş1
-^
-java:S1126 "AReplace this if-then-else statement by a single return statement.(‚Çê 8Ö÷Â«Ş1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(äşÃÊ8Â“Öìà1
+c
+java:S1126&"AReplace this if-then-else statement by a single return statement.(œÇ§ùøÿÿÿÿ8Ö“Öìà1

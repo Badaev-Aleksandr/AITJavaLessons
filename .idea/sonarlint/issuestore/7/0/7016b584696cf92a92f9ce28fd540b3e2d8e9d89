@@ -1,0 +1,11 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½–“Ôúÿÿÿÿ8Äİ¦¦ß1
+c
+java:S1854"ARemove this useless assignment to local variable "sizeSalarymax".(ÆÉˆúÿÿÿÿ8¥ô¦ß1
+d
+java:S1854"GRemove this useless assignment to local variable "salaryMaxFirstMonth".(…®³¸8¥ô¦ß1
+U
+java:S1481"8Remove this unused "salaryMaxFirstMonth" local variable.(…®³¸8¦ô¦ß1
+T
+java:S1481"2Remove this unused "sizeSalarymax" local variable.(ÆÉˆúÿÿÿÿ8¦ô¦ß1
+X	java:S125"<This block of commented-out lines of code should be removed.(ËÁ·¬8©ô¦ß1
