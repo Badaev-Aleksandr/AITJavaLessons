@@ -20,17 +20,16 @@ public class Methods {
     Продемонстрируйте работу функции, передав ей различное количество аргументов.
      */
     public static void sum(int... numberN) {
-        while (true) {
-            if (numberN.length == 0) {
-                System.out.println("You did not enter a value! ");
-                break;
-            }
-            int sum = 0;
-            for (int i : numberN) {
-                sum += i;
-            }
+        int counter = 0;
+        if (numberN.length == 0) {
+            System.out.println("You did not enter a value! ");
+            counter++;
+        }
+        int sum = 0;
+        for (int i : numberN) {
+            sum += i;
+        }if (counter == 0) {
             System.out.println("The sum of all numbers is: " + sum);
-            break;
         }
     }
    /*
@@ -46,10 +45,8 @@ public class Methods {
     */
 
     public static void statistics(double... numberN) {
-        while (true) {
             if (numberN.length == 0) {
                 System.out.println("You did not enter a value! ");
-                break;
             }
             double numberMin = numberN[0];
             double numberMax = numberN[0];
@@ -59,7 +56,6 @@ public class Methods {
                 if (number < 0) {
                     System.out.println("Error!!! You entered a negative value!");
                     counter++;
-                    break;
                 } else {
 
                     if (number < numberMin) {
@@ -76,10 +72,8 @@ public class Methods {
                 System.out.println("The minimum value is: " + numberMin);
                 System.out.println("The maximum value is: " + numberMax);
                 System.out.println("The average value is: " + numberAverage);
-                break;
             }
-            break;
         }
     }
-}
+
 
