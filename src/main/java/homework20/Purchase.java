@@ -37,10 +37,14 @@ public class Purchase {
     }
 
     public static void printPurchase(ArrayList<Purchase> list) {
-        Iterator<Purchase> iterator = list.iterator();
-        while (iterator.hasNext()) {
-            Purchase element = iterator.next();
-            System.out.println(element);
+        if (list.isEmpty()) {
+            System.out.println("The shopping list is empty!");
+        } else {
+            Iterator<Purchase> iterator = list.iterator();
+            while (iterator.hasNext()) {
+                Purchase element = iterator.next();
+                System.out.println(element);
+            }
         }
     }
 
@@ -61,10 +65,10 @@ public class Purchase {
     public static void removingProduct(ArrayList<Purchase> list, String productName) {
         boolean notFindProduct = false;
         for (int i = 0; i < list.size(); i++) {
-            if (productName.equalsIgnoreCase(list.get(i).itemName)) {
+            if (list.get(i).getItemName().equalsIgnoreCase(productName)) {
                 list.remove(i);
                 notFindProduct = true;
-                break;
+                i--;
             }
         }
         if (!notFindProduct) {
