@@ -1,7 +1,6 @@
 package homework22;
 
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.Objects;
 
 /*
@@ -77,30 +76,39 @@ public class Property {
         return Objects.hash(address, type);
     }
 
-    public static void filterByType(HashSet<Property> object, String type) {
+    public static HashSet<Property> filterByType(HashSet<Property> object, String type) {
+        HashSet<Property> hashSet = new HashSet<>();
         boolean checkType = false;
         for (Property address : object) {
             if (address.getType().equalsIgnoreCase(type)) {
-                System.out.println(address);
+                hashSet.add(address);
                 checkType = true;
             }
         }
         if (!checkType) {
             System.out.println("Not found");
         }
+        return hashSet;
     }
 
-    public static void compareSets(HashSet<Property> objectOne, HashSet<Property> objectTwo) {
+    public static HashSet<Property> compareSets(HashSet<Property> objectOne, HashSet<Property> objectTwo) {
         HashSet<Property> differenceObject = new HashSet<>(objectOne);
-        differenceObject.removeAll(objectTwo);
-        for (Property address : differenceObject) {
-            System.out.println(address);
+        if (objectTwo == null || objectTwo == null) {
+            System.out.println("No object");
+        } else {
+            differenceObject.removeAll(objectTwo);
         }
+        return differenceObject;
     }
-    public static void mergingObjects(HashSet<Property> objectOne, HashSet<Property> objectTwo){
+
+    public static HashSet<Property> mergingObjects(HashSet<Property> objectOne, HashSet<Property> objectTwo) {
         HashSet<Property> unionObject = new HashSet<>(objectOne);
         unionObject.addAll(objectTwo);
-        for (Property address : unionObject) {
+        return unionObject;
+    }
+
+    public static void printObject(HashSet<Property> object) {
+        for (Property address : object) {
             System.out.println(address);
         }
     }
