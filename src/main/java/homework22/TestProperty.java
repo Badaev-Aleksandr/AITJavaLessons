@@ -19,26 +19,31 @@ public class TestProperty {
         realEstateTwo.add(new Property("Am Entensee 9-5", "Apartment"));
         realEstateTwo.add(new Property("Weingartenweg 15", "Apartment house"));
         realEstateTwo.add(new Property("Bergstraße 3", "Commercial real estate"));
-        for (Property address : realEstateOne) {
-            System.out.println(address);
-        }
+        Property.printObject(realEstateOne);
+
         System.out.println("---------------Task2---------------");
         System.out.println("Фильтрация по типу недвижимости: ");
-        HashSet<Property> realEstateThree = new HashSet<>(Property.filterByType(realEstateOne, "apartment"));
+        HashSet<Property> realEstateThree = new HashSet<>(Property.filterByType(realEstateOne, "Hospital"));
         Property.printObject(realEstateThree);
-        System.out.println("Сохраняем в новом Hashset realEstateThree");
+        if (!realEstateOne.isEmpty()) {
+            System.out.println("Сохраняем в новом Hashset realEstateThree");
+        }
 
         System.out.println("---------------Task3---------------");
         System.out.println("Программа, которая сравнивает два HashSet объектов недвижимости и определяет,\n" +
                 "какие объекты присутствуют в первом наборе, но отсутствуют во втором: ");
         HashSet<Property> realEstateFour = new HashSet<>(Property.compareSets(realEstateOne, realEstateTwo));
         Property.printObject(realEstateFour);
-        System.out.println("Сохраняем в новом Hashset realEstateFour");
+        if (!realEstateOne.isEmpty()) {
+            System.out.println("Сохраняем в новом Hashset realEstateFour");
+        }
 
         System.out.println("---------------Task4---------------");
         System.out.println("Объединение двух HashSet и исключение повторяющихся объектов:");
         HashSet<Property> realEstateFive = new HashSet<>(Property.mergingObjects(realEstateOne, realEstateTwo));
         Property.printObject(realEstateFive);
-        System.out.println("Сохраняем в новом Hashset realEstateFive");
+        if (!realEstateOne.isEmpty()) {
+            System.out.println("Сохраняем в новом Hashset realEstateFive");
+        }
     }
 }

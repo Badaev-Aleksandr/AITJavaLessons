@@ -77,24 +77,26 @@ public class Property {
     }
 
     public static HashSet<Property> filterByType(HashSet<Property> object, String type) {
-        HashSet<Property> hashSet = new HashSet<>();
-        boolean checkType = false;
-        for (Property address : object) {
-            if (address.getType().equalsIgnoreCase(type)) {
-                hashSet.add(address);
-                checkType = true;
+        HashSet<Property> filteredObjects = new HashSet<>();
+        if (object.isEmpty()) {
+            System.out.println("Property hashSet is empty");
+        } else {
+            for (Property property : object) {
+                if (property.getType().equalsIgnoreCase(type)) {
+                    filteredObjects.add(property);
+                }
+            }
+            if (filteredObjects.isEmpty()){
+                System.out.println("No properties was found!");
             }
         }
-        if (!checkType) {
-            System.out.println("Not found");
-        }
-        return hashSet;
+        return filteredObjects;
     }
 
     public static HashSet<Property> compareSets(HashSet<Property> objectOne, HashSet<Property> objectTwo) {
         HashSet<Property> differenceObject = new HashSet<>(objectOne);
-        if (objectTwo == null || objectTwo == null) {
-            System.out.println("No object");
+        if (objectOne.isEmpty() || objectTwo.isEmpty()) {
+            System.out.println("Property hashSet is empty");
         } else {
             differenceObject.removeAll(objectTwo);
         }
@@ -103,13 +105,21 @@ public class Property {
 
     public static HashSet<Property> mergingObjects(HashSet<Property> objectOne, HashSet<Property> objectTwo) {
         HashSet<Property> unionObject = new HashSet<>(objectOne);
-        unionObject.addAll(objectTwo);
+        if (objectOne.isEmpty() || objectTwo.isEmpty()) {
+            System.out.println("Property hashSet is empty");
+        } else {
+            unionObject.addAll(objectTwo);
+        }
         return unionObject;
     }
 
     public static void printObject(HashSet<Property> object) {
-        for (Property address : object) {
-            System.out.println(address);
+        if (object.isEmpty()) {
+            System.out.println("No objects in HashSet to print!");
+        } else {
+            for (Property address : object) {
+                System.out.println(address.toString());
+            }
         }
     }
 }
