@@ -17,7 +17,7 @@ public class SocialNetworkTest {
         userAleksandrBadaev.addFriends(userAleksandrBadaev, userAndreyBadaev);
         userAleksandrBadaev.addFriends(userAleksandrBadaev, userAndreyBadaev);
         userAleksandrBadaev.addFriends(userAleksandrBadaev, userEduardVasilenko);
-        util.findUser(userAleksandrBadaev);
+        
 
         userElizavetaBogdan.printListFriends(userElizavetaBogdan);
         userAleksandrBadaev.printListFriends(userAleksandrBadaev);
