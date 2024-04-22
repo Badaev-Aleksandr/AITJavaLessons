@@ -19,6 +19,6 @@ public class MenuItem {
 
     @Override
     public String toString() {
-        return "Menu: " + " name of the dish: '" + name  + "' type: " + type ;
+        return "Menu: " + " name of the dish: '" + name + "' type: " + type;
     }
 }
