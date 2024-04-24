@@ -16,10 +16,11 @@ public enum OrderStatus {
     public String getDescription() {
         return description;
     }
-    public boolean canCancel(){
-        if (this.equals(PENDING)||this.equals(PROCESSING)){
+
+    public boolean canCancel() {
+        if (this.equals(PENDING) || this.equals(PROCESSING)) {
             return true;
-        }else{
+        } else {
             return false;
         }
     }
