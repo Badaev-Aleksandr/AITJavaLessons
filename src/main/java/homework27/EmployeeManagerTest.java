@@ -23,6 +23,7 @@ public class EmployeeManagerTest {
         Employee employee5 = new Employee(3343,"Bob","Director",5674.54);
 
         employee.displayInfo();
+        System.out.println("-----------------");
 
         EmployeeManager employeeManager = new EmployeeManager();
         employeeManager.addEmployee(employee);
@@ -35,9 +36,11 @@ public class EmployeeManagerTest {
         System.out.println("-----------------");
         employeeManager.displayAllEmployees();
         System.out.println("-----------------");
-        employeeManager.findEmployeeById(666);
+        employeeManager.findEmployeeById(2223);
+        System.out.println("-----------------");
+        employeeManager.updateEmployee(111,"Olga","Camera Operator",6794);
+        System.out.println("-----------------");
         employeeManager.removeEmployee(111);
-        employeeManager.updateEmployee(3462,"Olga","Camera Operator",6794);
 
 
 
