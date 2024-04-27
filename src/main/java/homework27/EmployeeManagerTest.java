@@ -45,10 +45,5 @@ public class EmployeeManagerTest {
         employeeManager.findEmployeeById(111);
         System.out.println("-----------------");
         employeeManager.removeEmployee(111);
-
-
-
-
-
     }
 }
