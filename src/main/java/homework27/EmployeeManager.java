@@ -26,68 +26,88 @@ public class EmployeeManager {
     // добавляет нового сотрудника в систему, при этом проверяет, что сотрудник с таким ID
     //ещё не зарегистрирован.
     public void addEmployee(Employee employee) {
-        boolean check = false;
-        if (employees.isEmpty()) {
+        if (!checkEmployee(employee)) {
             employees.add(employee);
             System.out.println("Employee: " + employee.getName() + " ID: " + employee.getEmployeeId() + " was added");
-            check = true;
         } else {
-            for (Employee employeeOne : employees) {
-                if (employeeOne.getEmployeeId() == employee.getEmployeeId()) {
-                    System.out.println(employee.toString() + "---> ERROR!!! This employee is already registered!!!");
-                    check = true;
-                }
-            }
-        }
-        if (!check) {
-            employees.add(employee);
-            System.out.println("Employee: " + employee.getName() + " ID: " + employee.getEmployeeId() + " was added");
+            System.out.println("Employee " + employee.getName() + " ID: " + employee.getEmployeeId() + " is already registered!!!");
         }
     }
 
-    // обновляет данные сотрудника
-    public void updateEmployee(int employeeId, String name, String department, double salary) {
-        boolean check = false;
-        if (employees.isEmpty()) {
-            System.out.println("No registered employees");
+    public boolean checkEmployee(Employee employee) {
+        for (Employee employeeCheck : employees) {
+            if (employee.getEmployeeId() == employeeCheck.getEmployeeId()) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // методы обновления данных сотрудника
+
+    // проверка наличия сотрудника по ID
+    public boolean checkEmployeeByID(int employeeId) {
+        for (Employee employee : employees) {
+            if (employee.getEmployeeId() == employeeId) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // обновляет данные Имени сотрудника по ID
+    public void updateEmployeeName(int employeeId, String name) {
+        if (!checkEmployeeByID(employeeId)) {
+            System.out.println("Employee with ID: [" + employeeId + "] not found!");
         } else {
-            System.out.println("Updating employee data");
-            Iterator<Employee> iterator = employees.iterator();
-            while (iterator.hasNext()) {
-                Employee employee = iterator.next();
+            for (Employee employee : employees) {
                 if (employee.getEmployeeId() == employeeId) {
                     employee.setName(name);
-                    employee.setDepartment(department);
-                    employee.setSalary(salary);
-                    System.out.println("Employee details " + employee.getName() + " ID: [" +
-                            employee.getEmployeeId() + "] updated!");
-                    check = true;
+                    System.out.println("Employee details: " + employee.getName() + " ID: [" +
+                            employee.getEmployeeId() + "] was updated!");
                 }
             }
+        }
+    }
 
-        }if (!check){
+    // обновляет данные Должности сотрудника по ID
+    public void updateEmployeeDepartment(int employeeId, String department) {
+        if (!checkEmployeeByID(employeeId)) {
             System.out.println("Employee with ID: [" + employeeId + "] not found!");
+        } else {
+            for (Employee employee : employees) {
+                if (employee.getEmployeeId() == employeeId) {
+                    employee.setDepartment(department);
+                    System.out.println("Employee details: " + employee.getName() + " ID: [" +
+                            employee.getEmployeeId() + "] was updated!");
+                }
+            }
+        }
+    }
+
+    // обновляет данные Зарплаты сотрудника по ID
+    public void updateEmployeeSalary(int employeeId, double salary) {
+        if (!checkEmployeeByID(employeeId)) {
+            System.out.println("Employee with ID: [" + employeeId + "] not found!");
+        } else {
+            for (Employee employee : employees) {
+                if (employee.getEmployeeId() == employeeId) {
+                    employee.setSalary(salary);
+                    System.out.println("Employee details: " + employee.getName() + " ID: [" +
+                            employee.getEmployeeId() + "] was updated!");
+                }
+            }
         }
     }
 
     // удаляет сотрудника по ID.
     public void removeEmployee(int employeeId) {
-        boolean check = false;
-        if (employees.isEmpty()) {
-            System.out.println("No registered employees");
+        System.out.println("Deleting an employee by ID");
+        boolean checkResult = employees.removeIf(employee -> employee.getEmployeeId() == employeeId);
+        if (!checkResult) {
+            System.out.println("Employee with ID: [" + employeeId + "] not found!");
         } else {
-            System.out.println("Deleting an employee by ID");
-            for (Employee employee : employees) {
-                if (employee.getEmployeeId() == employeeId) {
-                    employees.remove(employee);
-                    System.out.println("The employee " + employee.getName() + " was removed from the database!");
-                    check = true;
-                    break;
-                }
-            }
-            if (!check) {
-                System.out.println("Employee with ID: [" + employeeId + "] not found!");
-            }
+            System.out.println("The employee with ID: " + employeeId + " was removed from the database!");
         }
     }
 

@@ -38,7 +38,11 @@ public class EmployeeManagerTest {
         System.out.println("-----------------");
         employeeManager.findEmployeeById(2223);
         System.out.println("-----------------");
-        employeeManager.updateEmployee(111,"Olga","Camera Operator",6794);
+        employeeManager.updateEmployeeName(111,"Olga");
+        employeeManager.updateEmployeeDepartment(111,"Police");
+        employeeManager.updateEmployeeSalary(111,99887);
+        System.out.println("-----------------");
+        employeeManager.findEmployeeById(111);
         System.out.println("-----------------");
         employeeManager.removeEmployee(111);
 
