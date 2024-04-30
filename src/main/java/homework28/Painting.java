@@ -4,6 +4,9 @@ public class Painting implements Artwork {
     private String typeOfPaint;
     private String paintingSize;
     private String creator;
+    private String artType;
+
+
 
     public String getTypeOfPaint() {
         return typeOfPaint;
@@ -13,15 +16,16 @@ public class Painting implements Artwork {
         return paintingSize;
     }
 
-    public Painting(String typeOfPaint, String paintingSize, String creator) {
+    public Painting(String artType, String typeOfPaint, String paintingSize, String creator) {
         this.typeOfPaint = typeOfPaint;
         this.paintingSize = paintingSize;
+        this.artType = artType;
         this.creator = creator;
     }
 
     @Override
     public void displayInfo() {
-        System.out.println("Creator: " + creator + "; Type of Paint: " + typeOfPaint + "; Painting Size: "
+        System.out.println("Art Type: " + artType + " Creator: " + creator + "; Type of Paint: " + typeOfPaint + "; Painting Size: "
                 + paintingSize);
     }
 
@@ -31,11 +35,17 @@ public class Painting implements Artwork {
     }
 
     @Override
+    public String getArtType() {
+        return artType;
+    }
+
+    @Override
     public String toString() {
         return "Painting{" +
                 "typeOfPaint='" + typeOfPaint + '\'' +
-                ", paintingSize=" + paintingSize +
+                ", paintingSize='" + paintingSize + '\'' +
                 ", creator='" + creator + '\'' +
+                ", artType='" + artType + '\'' +
                 '}';
     }
 }

@@ -17,15 +17,22 @@ import java.util.ArrayList;
 
 public class ArtGallery {
     private ArrayList<Artwork> allArtGallery = new ArrayList<>();
+    private String artType;
+
+    public String getArtType() {
+        return artType;
+    }
 
     public ArrayList<Artwork> getAllArtGallery() {
         return allArtGallery;
     }
+
     // добавление арт объектов
     public void addArtwork(Artwork artwork) {
         allArtGallery.add(artwork);
         System.out.println("Artwork was added");
     }
+
     // удаление арт объектов
     public void removeArtwork(Artwork artwork) {
         System.out.println("Removal of artwork");
@@ -36,6 +43,7 @@ public class ArtGallery {
             System.out.println("Artwork not in the list. Was previously deleted");
         }
     }
+
     // поиск арт объектов по создателю
     public void findArtwork(String creator) {
         boolean checkCreator = false;
@@ -50,6 +58,7 @@ public class ArtGallery {
             System.out.println("Creator " + creator + " Nothing found!");
         }
     }
+
     // вывод на экран всех арт объектов
     public void displayAllArtworks() {
         System.out.println("All artwork printing:");
@@ -58,7 +67,16 @@ public class ArtGallery {
         }
     }
 
-    public void sortArtwork() {
-
+    public void filterArtwork(String artType) {
+        boolean checkResult = false;
+        System.out.println("All artwork from " + artType);
+        for (Artwork artwork : allArtGallery) {
+            if (artwork.getArtType().equalsIgnoreCase(artType)){
+                artwork.displayInfo();
+                checkResult = true;
+            }
+        }if (!checkResult){
+            System.out.println("Artwork not found!");
+        }
     }
 }
