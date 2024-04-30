@@ -1,4 +1,4 @@
-package lesson27;
+package lesson26.homework;
 
 public enum OrderStatus {
     PENDING("Order is pending approval"),

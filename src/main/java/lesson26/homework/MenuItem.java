@@ -1,4 +1,4 @@
-package lesson27;
+package lesson26.homework;
 
 public class MenuItem {
     private String name;
