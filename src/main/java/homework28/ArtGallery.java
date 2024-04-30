@@ -17,11 +17,6 @@ import java.util.ArrayList;
 
 public class ArtGallery {
     private ArrayList<Artwork> allArtGallery = new ArrayList<>();
-    private String artType;
-
-    public String getArtType() {
-        return artType;
-    }
 
     public ArrayList<Artwork> getAllArtGallery() {
         return allArtGallery;
@@ -66,7 +61,7 @@ public class ArtGallery {
             artwork.displayInfo();
         }
     }
-
+    // фильтрация произведений по типу
     public void filterArtwork(String artType) {
         boolean checkResult = false;
         System.out.println("All artwork from " + artType);
