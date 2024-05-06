@@ -1,6 +1,7 @@
 package homework29;
 
-import java.util.HashSet;
+import java.util.HashMap;
+import java.util.Objects;
 
 /*
 Сотрудник:
@@ -9,55 +10,73 @@ import java.util.HashSet;
 Методы: добавление задачи, удаление задачи, вывод информации о сотруднике.
  */
 public class Employee {
-    private Identifier id;
+    private int employeeId;
     private String name;
     private String position;
-    private HashSet<Task> taskLists = new HashSet<>();
+    private HashMap<Integer, Task> employeeTasks = new HashMap<>();
 
-    public Employee(Identifier id, String name, String position) {
-        this.id = id;
+    public Employee(int employeeId, String name, String position) {
+        this.employeeId = employeeId;
         this.name = name;
         this.position = position;
-
     }
 
-    public void addTaskToList(Task task) {
-        taskLists.add(task);
-        System.out.println("The task was added in the list");
+    public void addTask(Task task) {
+        employeeTasks.put(task.getTaskId(), task);
     }
 
-    public void removeTaskFromList(Task task) {
-       boolean checkResult = taskLists.remove(task);
-       if (checkResult) {
-           System.out.println("The task was removed from the list");
-       }else {
-           System.out.println("The Task was not found");
-       }
+    public void deleteTask(int taskId) {
+        employeeTasks.remove(taskId);
     }
 
-    @Override
-    public String toString() {
-        return "Employee: " + "ID: " + id + ", Name '" + name + "' position: '" + position;
+    public void displayEmployeeInfo(){
+        System.out.println(toString());
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setPosition(String position) {
-        this.position = position;
-    }
-
-
-    public Identifier getId() {
-        return id;
+    public int getEmployeeId() {
+        return employeeId;
     }
 
     public String getName() {
         return name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public String getPosition() {
         return position;
     }
+
+    public void setPosition(String position) {
+        this.position = position;
+    }
+
+    public HashMap<Integer, Task> getEmployeeTasks() {
+        return employeeTasks;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "employeeId=" + employeeId +
+                ", name='" + name + '\'' +
+                ", position='" + position + '\'' +
+                ", employeeTasks=" + employeeTasks +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Employee employee)) return false;
+        return getEmployeeId() == employee.getEmployeeId();
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(getEmployeeId());
+    }
+
 }

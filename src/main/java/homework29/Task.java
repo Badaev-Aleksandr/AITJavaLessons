@@ -1,4 +1,7 @@
 package homework29;
+
+import java.util.Objects;
+
 /*
 Задача:
 
@@ -6,40 +9,40 @@ package homework29;
 Методы: изменение статуса, установка срока выполнения.
  */
 public class Task {
-    private Identifier id;
+    private int taskId;
     private String description;
-    private Status status;
+    private TaskStatus taskStatus;
     private String deadline;
 
-    public Task(Identifier id, String description, Status status, String deadline) {
-        this.id = id;
+    public Task(int taskId, String description, String deadline) {
+        this.taskId = taskId;
         this.description = description;
-        this.status = status;
+        this.taskStatus = TaskStatus.NEW;
         this.deadline = deadline;
     }
 
-    public Identifier getId() {
-        return id;
+    public int getTaskId() {
+        return taskId;
     }
 
     public String getDescription() {
         return description;
     }
 
-    public Status getStatus() {
-        return status;
-    }
-
-    public String getDeadline() {
-        return deadline;
-    }
-
     public void setDescription(String description) {
         this.description = description;
     }
 
-    public void setStatus(Status status) {
-        this.status = status;
+    public TaskStatus getTaskStatus() {
+        return taskStatus;
+    }
+
+    public void setTaskStatus(TaskStatus taskStatus) {
+        this.taskStatus = taskStatus;
+    }
+
+    public String getDeadline() {
+        return deadline;
     }
 
     public void setDeadline(String deadline) {
@@ -49,10 +52,23 @@ public class Task {
     @Override
     public String toString() {
         return "Task{" +
-                "id=" + id +
+                "taskId=" + taskId +
                 ", description='" + description + '\'' +
-                ", status=" + status +
+                ", taskStatus=" + taskStatus +
                 ", deadline='" + deadline + '\'' +
                 '}';
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Task task)) return false;
+        return getTaskId() == task.getTaskId();
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(getTaskId());
+    }
+
 }
