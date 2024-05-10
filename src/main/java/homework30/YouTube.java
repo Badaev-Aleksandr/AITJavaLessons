@@ -73,6 +73,8 @@ public class YouTube {
         videoThree.info();
         videoFour.info();
         videoFive.info();
+        alex.getVideoList().clear();
+        System.out.println(alex.getVideoList());
 
 
     }

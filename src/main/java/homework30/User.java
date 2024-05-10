@@ -84,7 +84,7 @@ public class User {
     }
 
     public HashMap<Integer, Video> getVideoList() {
-        return videoList;
+        return new HashMap<>(videoList);
     }
 
 
