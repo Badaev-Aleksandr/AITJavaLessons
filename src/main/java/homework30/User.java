@@ -86,8 +86,6 @@ public class User {
     public HashMap<Integer, Video> getVideoList() {
         return new HashMap<>(videoList);
     }
-
-
     public String getUserName() {
         return userName;
     }
