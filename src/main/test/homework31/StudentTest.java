@@ -5,6 +5,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class StudentTest {
@@ -21,15 +22,18 @@ public class StudentTest {
     void studentsListTestPositive(){
         ArrayList<Student> students = new ArrayList<>();
         students.add(new Student("Alex", 99));
-        students.add(new Student("Lisa", 70));
+        students.add(new Student("Lisa", 80));
         students.add(new Student("Sven", 85));
-        students.add(new Student("David", 65));
+        students.add(new Student("David", 76));
 
         ArrayList<Student> filteredStudents = student.filterStudentsAboveScore(students,75);
 
-        assertEquals(2,filteredStudents.size());
+        assertEquals(4,filteredStudents.size());
         assertEquals("Alex", filteredStudents.get(0).getStudentName());
-        assertEquals("Sven", filteredStudents.get(1).getStudentName());
+        assertEquals("Lisa", filteredStudents.get(1).getStudentName());
+        assertEquals("Sven", filteredStudents.get(2).getStudentName());
+        assertEquals("David", filteredStudents.get(3).getStudentName());
+
 
 
     }
