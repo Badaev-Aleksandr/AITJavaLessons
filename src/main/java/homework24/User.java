@@ -52,6 +52,45 @@ public class User {
         this.id = id;
     }
 
+
+
+    public void addFriends(User whoUser, User friend) {
+        boolean addResult = friends.add(friend);
+        if (addResult) {
+            System.out.println(whoUser.getName() + " added a friend '" + friend.getName() + "' ");
+        } else {
+            System.out.println(whoUser.getName() + ", User " + " '" + friend.getName() + "' was not added as a friend. \n" +
+                    "He is already your friend");
+        }
+    }
+
+    public void removeFriend(User whoUser, User friend) {
+        boolean removedResult = friends.remove(friend);
+        if (removedResult) {
+            System.out.println(whoUser.getName() + ", User " + " '" + friend.getName() + "' was removed from friends");
+        } else {
+            System.out.println("Unable to delete from friends!!!");
+            System.out.println(whoUser.getName() + ", User " + " '" + friend.getName() + "' not found in friends, ");
+        }
+    }
+
+    public void sendMessage(String messageText, LocalDateTime sendTime) {
+        listOfMessages.add(new Message(this, messageText, sendTime));
+    }
+
+    public void printListFriends(User user) {
+        if (friends.isEmpty()) {
+            System.out.println("--------Friends list " + user.getName() + "--------");
+            System.out.println("You don't have any friends yet :(");
+            System.out.println("----------------------------");
+        } else {
+            System.out.println("--------Friends list " + user.getName() + "--------");
+            for (User friend : friends) {
+                System.out.println(friend.getName() + " @" + friend.getId());
+            }
+            System.out.println("----------------------------");
+        }
+    }
     public String getName() {
         return name;
     }
@@ -100,43 +139,5 @@ public class User {
     @Override
     public String toString() {
         return "Name " + name + " ID " + id;
-    }
-
-    public void addFriends(User whoUser, User friend) {
-        boolean addResult = friends.add(friend);
-        if (addResult) {
-            System.out.println(whoUser.getName() + " added a friend '" + friend.getName() + "' ");
-        } else {
-            System.out.println(whoUser.getName() + ", User " + " '" + friend.getName() + "' was not added as a friend. \n" +
-                    "He is already your friend");
-        }
-    }
-
-    public void removeFriend(User whoUser, User friend) {
-        boolean removedResult = friends.remove(friend);
-        if (removedResult) {
-            System.out.println(whoUser.getName() + ", User " + " '" + friend.getName() + "' was removed from friends");
-        } else {
-            System.out.println("Unable to delete from friends!!!");
-            System.out.println(whoUser.getName() + ", User " + " '" + friend.getName() + "' not found in friends, ");
-        }
-    }
-
-    public void sendMessage(String messageText, LocalDateTime sendTime) {
-        listOfMessages.add(new Message(this, messageText, sendTime));
-    }
-
-    public void printListFriends(User user) {
-        if (friends.isEmpty()) {
-            System.out.println("--------Friends list " + user.getName() + "--------");
-            System.out.println("You don't have any friends yet :(");
-            System.out.println("----------------------------");
-        } else {
-            System.out.println("--------Friends list " + user.getName() + "--------");
-            for (User friend : friends) {
-                System.out.println(friend.getName() + " @" + friend.getId());
-            }
-            System.out.println("----------------------------");
-        }
     }
 }
