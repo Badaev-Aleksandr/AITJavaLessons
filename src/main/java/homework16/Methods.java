@@ -1,7 +1,7 @@
 package homework16;
 
 
-import My.Methods.MyMethods;
+
 
 /*
 Цель задания:
