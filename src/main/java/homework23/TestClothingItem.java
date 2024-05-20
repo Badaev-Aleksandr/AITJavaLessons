@@ -13,6 +13,7 @@ public class TestClothingItem {
         clothingManager.addClothingItem(new ClothingItem("sneakers", 44, "black", "shoes"));
         clothingManager.printInfoClothingItem();
 
+
         System.out.println("Search for clothes: ");
         HashSet<ClothingItem> foundItems = clothingManager.foundClothingItem("socks", 52, "blue",
                 "underwear");
