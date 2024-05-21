@@ -1,15 +1,25 @@
 package homework33;
 
+import com.sun.jdi.connect.Connector;
+
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class WeatherDate {
 
     // Задание 1
-    public static Stream<Double> calculateAverageTemperature() {
-        return Stream.of(15.0, 10.0, 22.0, -10.0, 0.0, -25.0);
+    public double calculateAverageTemperature(List<Double> temperatures) {
+        if (temperatures == null || temperatures.isEmpty()){
+            throw new IllegalArgumentException("Temperature list must not be null or empty");
+        }
+        double sum = 0;
+        for (Double temperature: temperatures){
+            sum+=temperature;
+        }
+      return sum/temperatures.size();
     }
 
     // Задание 2
@@ -26,11 +36,15 @@ public class WeatherDate {
         }
     }
 // Метод преобразования String в Double
-    public List<Double> stringToDouble(String temperatures) {
-        if (temperatures == null || temperatures.isEmpty()) {
+    public List<Double> stringToDouble(String argument) {
+        String nullArgument = "";
+        if (argument.equalsIgnoreCase("null")){
+             nullArgument = argument = null;
+        }
+        if (nullArgument == null || argument.isEmpty()) {
             return List.of();
         }
-        String[] tempArray = temperatures.split(",\\s*");
+        String[] tempArray = argument.split(",\\s*");
         return Arrays.stream(tempArray)
                 .map(Double::parseDouble)
                 .collect(Collectors.toList());
