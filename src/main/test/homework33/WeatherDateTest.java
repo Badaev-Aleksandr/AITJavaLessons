@@ -37,7 +37,7 @@ public class WeatherDateTest {
         weatherManager = new WeatherDate();
     }
 
-    // Не получилось реализовать тестовый вариант!
+
     @ParameterizedTest(name = "{index} --> Temperatures: {0} - Average Temperature {1} " )
     @MethodSource("homework33.WeatherDateTest#provideTemperatureData")
     void testCalculateAverageTemperature(List<Double> temperatures, double expectedResult) {
