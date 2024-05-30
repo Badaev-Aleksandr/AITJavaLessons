@@ -4,13 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c42a532-1936-4e48-a45e-221c546f76c6" name="Changes" comment="commit HomeWork15">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson14/Task01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9ac18dbfaddae6ca13b922a5d95bb493075d4c9f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9ac18dbfaddae6ca13b922a5d95bb493075d4c9f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c0c5a94dc2f74774c54a9357f403a5bdca291dff" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c0c5a94dc2f74774c54a9357f403a5bdca291dff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="5c42a532-1936-4e48-a45e-221c546f76c6" name="Changes" comment="gitignore">
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/WrongAgeValueException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptionshandling/CheckUserDates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptionshandling/CheckedExceptionMuster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptionshandling/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptionshandling/UncheckedExceptionMuster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson36/DrinkAssistant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d9d91fe76b2bb46e4380baa7db62faa7f576d38c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/9/d9d91fe76b2bb46e4380baa7db62faa7f576d38c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/Terst.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/consultation0224/JavaFor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/consultation0903/Changetypes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/consultation0903/FakerUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/consultation0903/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exceptionshandling/ErrorCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exceptionshandling/ErrorCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson29/homework/Artwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson29/Artwork.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +30,41 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="homework34" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Badaev-Aleksandr&quot;
+  }
+}</component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="HomeWork" />
+      </list>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="c7a8da5f-68da-4302-ab66-bc517dfd3ecd" />
+        <option name="url" value="https://github.com/Badaev-Aleksandr/AITJavaLessons.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -34,6 +73,9 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2b3DTapVPOucJAigtKJTJe58IUZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,17 +83,35 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.AnimalTest.executor": "Run",
+    "Application.ArrayListJava.executor": "Run",
     "Application.Arrays.executor": "Run",
     "Application.ArraysHomeWork.executor": "Run",
+    "Application.ArtGalleryTest.executor": "Run",
+    "Application.Average.executor": "Run",
+    "Application.BankAccountValidator.executor": "Run",
     "Application.BlockTest.executor": "Run",
     "Application.Calculator.executor": "Run",
     "Application.Car.executor": "Debug",
     "Application.CarDate.executor": "Run",
+    "Application.Changetypes.executor": "Run",
+    "Application.CheckedExceptionMuster.executor": "Run",
+    "Application.ComparisonOfNumbers.executor": "Run",
+    "Application.CosmeticProductTest.executor": "Run",
+    "Application.CosmeticStoreTest.executor": "Run",
     "Application.DogRegistration.executor": "Run",
+    "Application.DrinkAssistant.executor": "Run",
+    "Application.DrinksApp.executor": "Run",
     "Application.DynInit.executor": "Run",
+    "Application.EmployeeManagerTest.executor": "Run",
+    "Application.ErrorCalculator.executor": "Run",
+    "Application.FakerUtil.executor": "Run",
     "Application.ForEksepmle.executor": "Run",
     "Application.ForTest.executor": "Run",
     "Application.GetPersonDates.executor": "Run",
+    "Application.HashMapJava.executor": "Run",
+    "Application.HashMapTask.executor": "Run",
+    "Application.HashSetJava.executor": "Run",
     "Application.HomeWork05.executor": "Run",
     "Application.JavaMethods.executor": "Run",
     "Application.JavaMethodsTask01.executor": "Run",
@@ -61,10 +121,24 @@
     "Application.LesseonsWork.executor": "Run",
     "Application.LesseonsWork02.executor": "Run",
     "Application.Lessonswork01.executor": "Run",
+    "Application.LogesTest.executor": "Run",
+    "Application.Loginscheck.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MainPlay.executor": "Run",
+    "Application.MassivMnogomerniy.executor": "Debug",
+    "Application.MenuItemTest.executor": "Run",
+    "Application.Message.executor": "Run",
+    "Application.Methods.executor": "Run",
+    "Application.Metod.executor": "Run",
+    "Application.MovieSet.executor": "Run",
     "Application.MyApp.executor": "Run",
     "Application.MyLife.executor": "Run",
     "Application.Operator.executor": "Run",
     "Application.Operators.executor": "Run",
+    "Application.OutputOfNumbers.executor": "Run",
+    "Application.PersonTest.executor": "Run",
+    "Application.PlayMovie.executor": "Run",
+    "Application.SocialNetworkTest.executor": "Run",
     "Application.StringProcessor.executor": "Run",
     "Application.Task.executor": "Run",
     "Application.Task01.executor": "Run",
@@ -74,12 +148,34 @@
     "Application.Task0401.executor": "Debug",
     "Application.Task0402.executor": "Run",
     "Application.Task04TAX.executor": "Run",
-    "Application.Task05.executor": "Run",
+    "Application.Task05.executor": "Debug",
     "Application.Task0502.executor": "Run",
     "Application.TaskArray.executor": "Run",
+    "Application.TaskArrayList.executor": "Run",
+    "Application.TaskJavaHashSet.executor": "Run",
     "Application.Terst.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.TestAnimal.executor": "Run",
+    "Application.TestBook.executor": "Run",
+    "Application.TestClothingItem.executor": "Run",
+    "Application.TestClothingManager.executor": "Run",
+    "Application.TestEnum.executor": "Run",
+    "Application.TestHeadset.executor": "Run",
+    "Application.TestInterfaceVehicle.executor": "Run",
+    "Application.TestMain.executor": "Debug",
+    "Application.TestMovieCharacter.executor": "Run",
+    "Application.TestPerson.executor": "Run",
+    "Application.TestProperty.executor": "Run",
+    "Application.TestPurchase.executor": "Run",
+    "Application.TestSeason.executor": "Run",
+    "Application.TestVechicle.executor": "Run",
+    "Application.TestsWork.executor": "Run",
+    "Application.UncheckedExceptionMuster.executor": "Run",
+    "Application.UserInteraction.executor": "Run",
+    "Application.Var.executor": "Run",
     "Application.Variables.executor": "Run",
     "Application.Words.executor": "Run",
+    "Application.YouTube.executor": "Run",
     "Application.Zoo.executor": "Run",
     "Application.consultation01.Task01.executor": "Run",
     "Application.consultation01.Task02.executor": "Run",
@@ -94,35 +190,118 @@
     "Application.homework08.Task02.executor": "Run",
     "Application.homework08.Task03.executor": "Run",
     "Application.homework09.Task01.executor": "Run",
+    "Application.homework25.MenuItemTest.executor": "Run",
+    "Application.homeworkZoo.executor": "Run",
     "Application.lesson07.Task02.executor": "Run",
     "Application.lesson08.Task02.executor": "Debug",
     "Application.lesson08.Task03.executor": "Debug",
     "Application.lesson08.Task04.executor": "Run",
     "Application.primer.executor": "Run",
     "Application.sddff.executor": "Run",
+    "Application.test.executor": "Run",
+    "JUnit.AnimalsActionsTest.eatTest.executor": "Run",
+    "JUnit.AnimalsActionsTest.executor": "Coverage",
+    "JUnit.AnimalsActionsTest.playTest.executor": "Run",
+    "JUnit.AnimalsActionsTest.sleepTest.executor": "Run",
+    "JUnit.BankAccountValidatorTest.executor": "Run",
+    "JUnit.CalculatorTest.checkAddTwoNegativeNumberPositive.executor": "Run",
+    "JUnit.CalculatorTest.checkAddTwoPositiveNumberPositive.executor": "Run",
+    "JUnit.CalculatorTest.checkAddTwoZeroNumberPositive.executor": "Run",
+    "JUnit.CalculatorTest.executor": "Run",
+    "JUnit.ClothingManagerTest.checkAddPositive.executor": "Run",
+    "JUnit.ClothingManagerTest.executor": "Coverage",
+    "JUnit.ClothingManagerTest.testAddClothingItem.executor": "Run",
+    "JUnit.ClothingManagerTest.testFindCheapestItem.executor": "Run",
+    "JUnit.ClothingManagerTest.testFindClothingBySize (1).executor": "Run",
+    "JUnit.ClothingManagerTest.testFindClothingBySize.executor": "Run",
+    "JUnit.ClothingManagerTest.testFindClothingByType.executor": "Run",
+    "JUnit.ClothingManagerTest.testRemoveClothingItem.executor": "Run",
+    "JUnit.ClothingManagerTest.testRemoveClothingItemPositive.executor": "Run",
+    "JUnit.ClothingManagerTest.testremoveClothingItem.executor": "Run",
+    "JUnit.ItemSizeTest.executor": "Coverage",
+    "JUnit.ItemSizeTest.testItemSize.executor": "Run",
+    "JUnit.ItemSizeTest.testItemSizeValues.executor": "Run",
+    "JUnit.SalaryUtilTest.executor": "Run",
+    "JUnit.SalaryUtilTest.testBruttoSalaryCsvFile.executor": "Run",
+    "JUnit.SalaryUtilTest.testBruttoSalaryCsvSource.executor": "Run",
+    "JUnit.SalaryUtilTest.testBruttoSalaryEnumTest.executor": "Run",
+    "JUnit.SalaryUtilTest.testBruttoSalaryLess_2000.executor": "Run",
+    "JUnit.SalaryUtilTest.testBruttoSalaryLess_5000.executor": "Run",
+    "JUnit.StudentTest.executor": "Coverage",
+    "JUnit.StudentTest.studentsList75TestPositive.executor": "Run",
+    "JUnit.StudentTest.studentsListTestPositive.executor": "Run",
+    "JUnit.TestsWorkTest.checkAddTwoPositiveNumberPositive.executor": "Run",
+    "JUnit.TestsWorkTest.checkMixNumberPositive.executor": "Run",
+    "JUnit.TestsWorkTest.checkNegativeNumberPositive.executor": "Run",
+    "JUnit.TestsWorkTest.checkNullText.executor": "Run",
+    "JUnit.TestsWorkTest.checkPositiveNumberPositive.executor": "Run",
+    "JUnit.TestsWorkTest.checkTextLowerCase.executor": "Run",
+    "JUnit.TestsWorkTest.checkZeroNegativeNumberPositive.executor": "Run",
+    "JUnit.TestsWorkTest.checkZeroNumberPositive.executor": "Run",
+    "JUnit.TestsWorkTest.executor": "Coverage",
+    "JUnit.TestsWorkTest.sortArrayTest.executor": "Run",
+    "JUnit.TestsWorkTest.studentsList75Test.executor": "Run",
+    "JUnit.TestsWorkTest.testAddToArrayListPositive.executor": "Run",
+    "JUnit.TestsWorkTest.testArrayList.executor": "Run",
+    "JUnit.TestsWorkTest.testEqualsArrayListNegative.executor": "Run",
+    "JUnit.TestsWorkTest.testGreetings.executor": "Run",
+    "JUnit.TestsWorkTest.testIsEmptyArrayListPositive.executor": "Run",
+    "JUnit.TestsWorkTest.testRemoveForArrayList.executor": "Run",
+    "JUnit.UtilClassTest.reverseString.executor": "Run",
+    "JUnit.UtilClassTest.reverseStringTest.executor": "Run",
+    "JUnit.WeatherDateTest.calculateAverageTemperature.executor": "Run",
+    "JUnit.WeatherDateTest.executor": "Coverage",
+    "JUnit.WeatherDateTest.testCalculateAverageTemperature.executor": "Run",
+    "JUnit.WeatherDateTest.testCalculateAverageTemperatureNullOrEmpty.executor": "Run",
+    "JUnit.WeatherDateTest.testCheckForFrostWarnings (1).executor": "Run",
+    "JUnit.WeatherDateTest.testCheckForFrostWarnings.executor": "Run",
+    "JUnit.WeatherDateTest.testCheckForFrostWarningsNullOrEmpty.executor": "Debug",
+    "JUnit.WeatherDateTest.testEvaluatePrecipitationLevels.executor": "Run",
+    "JUnit.WeatherDateTest.testEvaluatePrecipitationLevelsNullOrEmpty.executor": "Run",
+    "JUnit.WeatherDateTest.testeValuatePrecipitationLevels.executor": "Run",
+    "Maven.AITJavaLessons [clean].executor": "Run",
+    "Maven.AITJavaLessons [compile].executor": "Run",
+    "Maven.AITJavaLessons [install].executor": "Run",
+    "Maven.AITJavaLessons [test].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "ignore_missing_gitignore": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Development/AITJavaLessons/src/main/test",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font"
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "two.files.diff.last.used.folder": "C:/Development/AITJavaLessons/src/main/java/consultation0903"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module"
+    ]
   }
 }]]></component>
+  <component name="Push.Settings">
+    <option name="SHOW_DETAILS_PANEL" value="false" />
+  </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Development\AITJavaLessons\src\main\test" />
+      <recent name="C:\Development\AITJavaLessons\src\main\java\homework25" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="homework25" />
       <recent name="homework02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Zoo">
-    <configuration name="ArraysHomeWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework14.ArraysHomeWork" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Changetypes" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="consultation0903.Changetypes" />
       <module name="AITJavaLessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework14.*" />
+          <option name="PATTERN" value="consultation0903.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +309,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DogRegistration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson15.DogRegistration" />
+    <configuration name="CheckedExceptionMuster" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionshandling.CheckedExceptionMuster" />
       <module name="AITJavaLessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson15.*" />
+          <option name="PATTERN" value="exceptionshandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +322,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework12.StringProcessor" />
+    <configuration name="DrinkAssistant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson36.DrinkAssistant" />
       <module name="AITJavaLessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework12.*" />
+          <option name="PATTERN" value="lesson36.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +335,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Terst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Terst" />
+    <configuration name="ErrorCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionshandling.ErrorCalculator" />
       <module name="AITJavaLessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="exceptionshandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,12 +348,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zoo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework15.Zoo" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionshandling.Main" />
       <module name="AITJavaLessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework15.*" />
+          <option name="PATTERN" value="exceptionshandling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UncheckedExceptionMuster" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionshandling.UncheckedExceptionMuster" />
+      <module name="AITJavaLessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptionshandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,21 +376,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Zoo" />
-        <item itemvalue="Application.DogRegistration" />
-        <item itemvalue="Application.ArraysHomeWork" />
-        <item itemvalue="Application.StringProcessor" />
-        <item itemvalue="Application.Terst" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.UncheckedExceptionMuster" />
+        <item itemvalue="Application.CheckedExceptionMuster" />
+        <item itemvalue="Application.ErrorCalculator" />
+        <item itemvalue="Application.DrinkAssistant" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -209,161 +393,491 @@
       <option name="presentableId" value="Default" />
       <updated>1705434879439</updated>
     </task>
-    <task id="LOCAL-00001" summary="initial commit HomeWork09">
+    <task id="LOCAL-00043" summary="homework25 was added">
       <option name="closed" value="true" />
-      <created>1708182394139</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+      <created>1713808329895</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
       <option name="project" value="LOCAL" />
-      <updated>1708182394140</updated>
+      <updated>1713808329895</updated>
     </task>
-    <task id="LOCAL-00002" summary="initial commit HomeWork06">
+    <task id="LOCAL-00044" summary="homework27 was added">
       <option name="closed" value="true" />
-      <created>1708184116434</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
+      <created>1713986597384</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
       <option name="project" value="LOCAL" />
-      <updated>1708184116435</updated>
+      <updated>1713986597384</updated>
     </task>
-    <task id="LOCAL-00003" summary="initial commit HomeWork06">
+    <task id="LOCAL-00045" summary="homework27 has been updated 25.04.24">
       <option name="closed" value="true" />
-      <created>1708184230843</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
+      <created>1714057175919</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
       <option name="project" value="LOCAL" />
-      <updated>1708184230843</updated>
+      <updated>1714057175919</updated>
     </task>
-    <task id="LOCAL-00004" summary="initial commit HomeWork09 update">
+    <task id="LOCAL-00046" summary="homework26 was added">
       <option name="closed" value="true" />
-      <created>1708185518789</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
+      <created>1714058457809</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
       <option name="project" value="LOCAL" />
-      <updated>1708185518789</updated>
+      <updated>1714058457809</updated>
     </task>
-    <task id="LOCAL-00005" summary="initial commit HomeWork09 02">
+    <task id="LOCAL-00047" summary="homework26 was updated">
       <option name="closed" value="true" />
-      <created>1708291393059</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
+      <created>1714210500027</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
       <option name="project" value="LOCAL" />
-      <updated>1708291393059</updated>
+      <updated>1714210500027</updated>
     </task>
-    <task id="LOCAL-00006" summary="initial commit HomeWork09 02">
+    <task id="LOCAL-00048" summary="homework27 was updated">
       <option name="closed" value="true" />
-      <created>1708291515595</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
+      <created>1714210585153</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
       <option name="project" value="LOCAL" />
-      <updated>1708291515595</updated>
+      <updated>1714210585153</updated>
     </task>
-    <task id="LOCAL-00007" summary="initial commit HomeWork09 02">
+    <task id="LOCAL-00049" summary="homework28 was updated">
       <option name="closed" value="true" />
-      <created>1708292557386</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
+      <created>1714494224720</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
       <option name="project" value="LOCAL" />
-      <updated>1708292557387</updated>
+      <updated>1714494224720</updated>
     </task>
-    <task id="LOCAL-00008" summary="initial commit HomeWork09 02">
+    <task id="LOCAL-00050" summary="Class: ArtGallery was updated">
       <option name="closed" value="true" />
-      <created>1708777808330</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
+      <created>1714494367563</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
       <option name="project" value="LOCAL" />
-      <updated>1708777808330</updated>
+      <updated>1714494367564</updated>
     </task>
-    <task id="LOCAL-00009" summary="initial commit HomeWork09 02">
+    <task id="LOCAL-00051" summary="Lesson25 was added">
       <option name="closed" value="true" />
-      <created>1708888549901</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
+      <created>1714494517764</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
       <option name="project" value="LOCAL" />
-      <updated>1708888549901</updated>
+      <updated>1714494517764</updated>
     </task>
-    <task id="LOCAL-00010" summary="commit HomeWork12 02">
+    <task id="LOCAL-00052" summary="Lesson26 was added">
       <option name="closed" value="true" />
-      <created>1708951460957</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
+      <created>1714494545154</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
       <option name="project" value="LOCAL" />
-      <updated>1708951460957</updated>
+      <updated>1714494545154</updated>
     </task>
-    <task id="LOCAL-00011" summary="commit HomeWork12 01">
+    <task id="LOCAL-00053" summary="Lesson27 was added">
       <option name="closed" value="true" />
-      <created>1709205621135</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
+      <created>1714494569294</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
       <option name="project" value="LOCAL" />
-      <updated>1709205621135</updated>
+      <updated>1714494569294</updated>
     </task>
-    <task id="LOCAL-00012" summary="commit HomeWork12 02">
+    <task id="LOCAL-00054" summary="Lesson28 was added">
       <option name="closed" value="true" />
-      <created>1709208021519</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
+      <created>1714494587841</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
       <option name="project" value="LOCAL" />
-      <updated>1709208021519</updated>
+      <updated>1714494587841</updated>
     </task>
-    <task id="LOCAL-00013" summary="commit HomeWork12 02">
+    <task id="LOCAL-00055" summary="homework29 was added">
       <option name="closed" value="true" />
-      <created>1709208355798</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
+      <created>1714665940227</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
       <option name="project" value="LOCAL" />
-      <updated>1709208355798</updated>
+      <updated>1714665940229</updated>
     </task>
-    <task id="LOCAL-00014" summary="commit HomeWork12 02">
+    <task id="LOCAL-00056" summary="homework30 was added">
       <option name="closed" value="true" />
-      <created>1709534194988</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
+      <created>1715033496335</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
       <option name="project" value="LOCAL" />
-      <updated>1709534194988</updated>
+      <updated>1715033496335</updated>
     </task>
-    <task id="LOCAL-00015" summary="commit HomeWork14">
+    <task id="LOCAL-00057" summary="homework29 was update">
       <option name="closed" value="true" />
-      <created>1709536924796</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
+      <created>1715034324751</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
       <option name="project" value="LOCAL" />
-      <updated>1709536924796</updated>
+      <updated>1715034324751</updated>
     </task>
-    <task id="LOCAL-00016" summary="commit HomeWork14">
+    <task id="LOCAL-00058" summary="homework30 was update">
       <option name="closed" value="true" />
-      <created>1709537715992</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
+      <created>1715368482587</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
       <option name="project" value="LOCAL" />
-      <updated>1709537715992</updated>
+      <updated>1715368482587</updated>
     </task>
-    <task id="LOCAL-00017" summary="commit HomeWork12 02">
+    <task id="LOCAL-00059" summary="method getVideoList was updated">
       <option name="closed" value="true" />
-      <created>1709626265426</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
+      <created>1715368643636</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
       <option name="project" value="LOCAL" />
-      <updated>1709626265426</updated>
+      <updated>1715368643636</updated>
     </task>
-    <task id="LOCAL-00018" summary="commit HomeWork14">
+    <task id="LOCAL-00060" summary="lesson31 was added">
       <option name="closed" value="true" />
-      <created>1709723444004</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
+      <created>1715516388640</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
       <option name="project" value="LOCAL" />
-      <updated>1709723444004</updated>
+      <updated>1715516388640</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00061" summary="lesson31 was added">
+      <option name="closed" value="true" />
+      <created>1715545617521</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1715545617525</updated>
+    </task>
+    <task id="LOCAL-00062" summary="homework31 was updated">
+      <option name="closed" value="true" />
+      <created>1715700956804</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1715700956804</updated>
+    </task>
+    <task id="LOCAL-00063" summary="homework32 was added">
+      <option name="closed" value="true" />
+      <created>1716217809352</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1716217809352</updated>
+    </task>
+    <task id="LOCAL-00064" summary="consultation and Test was added">
+      <option name="closed" value="true" />
+      <created>1716217997618</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1716217997618</updated>
+    </task>
+    <task id="LOCAL-00065" summary="homework16 was updated">
+      <option name="closed" value="true" />
+      <created>1716218771847</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1716218771847</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Reformat Code">
+      <option name="closed" value="true" />
+      <created>1716218845690</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1716218845690</updated>
+    </task>
+    <task id="LOCAL-00067" summary="homework24 was updated">
+      <option name="closed" value="true" />
+      <created>1716218879696</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1716218879696</updated>
+    </task>
+    <task id="LOCAL-00068" summary="homework28 class ArtGalleryTest was updated">
+      <option name="closed" value="true" />
+      <created>1716218931443</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1716218931443</updated>
+    </task>
+    <task id="LOCAL-00069" summary="lesson20 class Purchase was updated">
+      <option name="closed" value="true" />
+      <created>1716219027076</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1716219027076</updated>
+    </task>
+    <task id="LOCAL-00070" summary="lesson24 class HashMapJava was updated">
+      <option name="closed" value="true" />
+      <created>1716219065008</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1716219065008</updated>
+    </task>
+    <task id="LOCAL-00071" summary="lesson31 was added">
+      <option name="closed" value="true" />
+      <created>1716219113250</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1716219113250</updated>
+    </task>
+    <task id="LOCAL-00072" summary="lesson29 was added">
+      <option name="closed" value="true" />
+      <created>1716219138064</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1716219138064</updated>
+    </task>
+    <task id="LOCAL-00073" summary="lesson30 was added">
+      <option name="closed" value="true" />
+      <created>1716219184901</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1716219184901</updated>
+    </task>
+    <task id="LOCAL-00074" summary="lesson16 was added">
+      <option name="closed" value="true" />
+      <created>1716219303432</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1716219303432</updated>
+    </task>
+    <task id="LOCAL-00075" summary="resources was added">
+      <option name="closed" value="true" />
+      <created>1716219339626</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1716219339626</updated>
+    </task>
+    <task id="LOCAL-00076" summary="homework33 was added">
+      <option name="closed" value="true" />
+      <created>1716232674834</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1716232674835</updated>
+    </task>
+    <task id="LOCAL-00077" summary="homework33 first task completed">
+      <option name="closed" value="true" />
+      <created>1716308888715</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1716308888717</updated>
+    </task>
+    <task id="LOCAL-00078" summary="homework33 class WeatherDateTest was updated">
+      <option name="closed" value="true" />
+      <created>1716469523757</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1716469523758</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Lesson Logging was added">
+      <option name="closed" value="true" />
+      <created>1716469568746</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1716469568747</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Lesson Logging was added">
+      <option name="closed" value="true" />
+      <created>1716469576734</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1716469576734</updated>
+    </task>
+    <task id="LOCAL-00081" summary="pom.xlm was updated">
+      <option name="closed" value="true" />
+      <created>1716469613713</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1716469613713</updated>
+    </task>
+    <task id="LOCAL-00082" summary="homework34 was added">
+      <option name="closed" value="true" />
+      <created>1716476732654</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1716476732654</updated>
+    </task>
+    <task id="LOCAL-00083" summary="pom.xml updated">
+      <option name="closed" value="true" />
+      <created>1716482594519</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1716482594519</updated>
+    </task>
+    <task id="LOCAL-00084" summary="logback.xml added">
+      <option name="closed" value="true" />
+      <created>1716482616860</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1716482616860</updated>
+    </task>
+    <task id="LOCAL-00085" summary="pom.xml updated">
+      <option name="closed" value="true" />
+      <created>1716489304977</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1716489304978</updated>
+    </task>
+    <task id="LOCAL-00086" summary="homework35 was added">
+      <option name="closed" value="true" />
+      <created>1716883242474</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1716883242474</updated>
+    </task>
+    <task id="LOCAL-00087" summary="lesson35 was added">
+      <option name="closed" value="true" />
+      <created>1716883287329</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1716883287329</updated>
+    </task>
+    <task id="LOCAL-00088" summary="lesson35 was added">
+      <option name="closed" value="true" />
+      <created>1716883328859</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1716883328859</updated>
+    </task>
+    <task id="LOCAL-00089" summary="lesson35 was added">
+      <option name="closed" value="true" />
+      <created>1716883354810</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1716883354810</updated>
+    </task>
+    <task id="LOCAL-00090" summary="lesson35 was added">
+      <option name="closed" value="true" />
+      <created>1717076484743</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1717076484743</updated>
+    </task>
+    <task id="LOCAL-00091" summary="gitignore">
+      <option name="closed" value="true" />
+      <created>1717076515351</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1717076515351</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="65" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="55" />
+                  <entry key="Table.Space.CommitStatus.ColumnIdWidth" value="49" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="homework34" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial commit HomeWork09" />
-    <MESSAGE value="initial commit HomeWork06" />
-    <MESSAGE value="initial commit HomeWork09 update" />
-    <MESSAGE value="initial commit HomeWork09 02" />
-    <MESSAGE value="commit HomeWork12 01" />
-    <MESSAGE value="commit HomeWork12 02" />
-    <MESSAGE value="commit HomeWork14" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit HomeWork14" />
+    <MESSAGE value="homework31 was updated" />
+    <MESSAGE value="homework32 was added" />
+    <MESSAGE value="consultation and Test was added" />
+    <MESSAGE value="homework16 was updated" />
+    <MESSAGE value="Reformat Code" />
+    <MESSAGE value="homework24 was updated" />
+    <MESSAGE value="homework28 class ArtGalleryTest was updated" />
+    <MESSAGE value="lesson20 class Purchase was updated" />
+    <MESSAGE value="lesson24 class HashMapJava was updated" />
+    <MESSAGE value="lesson31 was added" />
+    <MESSAGE value="lesson29 was added" />
+    <MESSAGE value="lesson30 was added" />
+    <MESSAGE value="lesson16 was added" />
+    <MESSAGE value="resources was added" />
+    <MESSAGE value="homework33 was added" />
+    <MESSAGE value="homework33 first task completed" />
+    <MESSAGE value="homework33 class WeatherDateTest was updated" />
+    <MESSAGE value="Lesson Logging was added" />
+    <MESSAGE value="pom.xlm was updated" />
+    <MESSAGE value="homework34 was added" />
+    <MESSAGE value="logback.xml added" />
+    <MESSAGE value="pom.xml updated" />
+    <MESSAGE value="homework35 was added" />
+    <MESSAGE value="lesson35 was added" />
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lesson08/Task05.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AITJavaLessons$StudentTest.ic" NAME="StudentTest Coverage Results" MODIFIED="1715712274238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>homework31.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AITJavaLessons$ClothingManagerTest.ic" NAME="ClothingManagerTest Coverage Results" MODIFIED="1716217668312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>homework32.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AITJavaLessons$TestsWorkTest.ic" NAME="TestsWorkTest Coverage Results" MODIFIED="1715711961206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>homework31.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AITJavaLessons$WeatherDateTest.ic" NAME="WeatherDateTest Coverage Results" MODIFIED="1716311913810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>homework33.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AITJavaLessons$ItemSizeTest.ic" NAME="ItemSizeTest Coverage Results" MODIFIED="1716217686958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>homework32.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AITJavaLessons$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1714759566141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>lesson30.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AITJavaLessons$AnimalsActionsTest.ic" NAME="AnimalsActionsTest Coverage Results" MODIFIED="1716476643213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>homework34.*</FILTER>
+    </SUITE>
   </component>
 </project>
