@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 public class BankAccountValidator {
 
-    private static Logger LOGGER = LoggerFactory.getLogger(BankAccountValidator.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(BankAccountValidator.class);
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
