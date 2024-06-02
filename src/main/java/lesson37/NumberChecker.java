@@ -16,6 +16,9 @@ public class NumberChecker {
             LOGGER.error(exception.getMessage());
             throw new NumberFormatException("Invalid number: " + numberToCheck);
         }
+        finally {
+            LOGGER.info("Завершено: "+ numberToCheck);
+        }
     }
 
     public void checkNumber2(String numberToCheck) throws NumberFormatException{
