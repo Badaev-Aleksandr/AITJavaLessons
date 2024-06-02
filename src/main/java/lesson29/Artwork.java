@@ -1,4 +1,4 @@
-package lesson29.homework;
+package lesson29;
 
 public interface Artwork {
 }
