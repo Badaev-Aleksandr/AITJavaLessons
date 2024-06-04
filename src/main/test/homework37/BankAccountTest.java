@@ -7,6 +7,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -66,25 +67,30 @@ public class BankAccountTest {
         BankAccount bankAccountValid = new BankAccount("1234567890");
         logCaptor.setLogLevelToInfo();
         assertTrue(logCaptor.getInfoLogs().contains("Checking number: 1234567890"));
-        assertTrue(logCaptor.getInfoLogs().contains("Account number 1234567890 is ok"));
+        assertTrue(logCaptor.getInfoLogs().contains("Bank account 1234567890 is valid"));
     }
 
     //Проверка конструктора на исключение входящих чисел
     @ParameterizedTest
     @ValueSource(strings = {"123456789O", "l234567890", "123456789l"})
     void testBankAccountConstructorException(String input) {
-        assertThrows(NumberFormatException.class, () -> {
+        assertThrows(IllegalArgumentException.class, () -> {
             new BankAccount(input);
         });
     }
 
-    //Проверка конструктора на исключение количества чисел должно быть 10
+    //Проверка валидации банковского номера позитивные номера
     @ParameterizedTest
-    @ValueSource(strings = {"1564jdd", "5k9ahd599", "6456565ddddd"})
-    void testBankAccountConstructorIllegalArgumentException(String input) {
-        assertThrows(IllegalArgumentException.class, () -> {
-            new BankAccount(input);
-        });
+    @ValueSource(strings = {"1679584603", "8527419630", "6402793825"})
+    void testisBankAccountValidPositive(String input) {
+        assertTrue(bankAccount.isBankAccountValid(input));
+    }
+
+    //Проверка валидации банковского номера негативные номера
+    @ParameterizedTest
+    @ValueSource(strings = {"167603", "85274AA19630", "64027938LGE25"})
+    void testisBankAccountValidNegative(String input) {
+        assertFalse(bankAccount.isBankAccountValid(input));
     }
 }
 

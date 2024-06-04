@@ -14,21 +14,28 @@ public class BankAccount {
     }
 
     public BankAccount(String accountNumber) throws IllegalArgumentException {
-        LOGGER.info("Checking number: {}", accountNumber);
-        if (accountNumber.length() == 10) {
-            try {
-                int checkingValidity = Integer.parseInt(accountNumber);
-                this.accountNumber = String.valueOf(checkingValidity);
-                LOGGER.info("Account number {} is ok", accountNumber);
-            } catch (NumberFormatException exception) {
-                LOGGER.error(exception.getMessage());
-                throw new NumberFormatException("Invalid account number: " + accountNumber);
-            }
+        if (isBankAccountValid(accountNumber)) {
+            this.accountNumber = accountNumber;
         } else {
-            LOGGER.error("Invalid account number: {}", accountNumber);
-            throw new IllegalArgumentException("Invalid account number, less than 10 characters: " + accountNumber);
+            throw new IllegalArgumentException("Invalid account number: " + accountNumber);
         }
+    }
 
+    public boolean isBankAccountValid(String accountNumber) {
+        LOGGER.info("Checking number: {}", accountNumber);
+        if (accountNumber.length() != 10) {
+            LOGGER.error("Invalid account number: {}", accountNumber);
+            return false;
+        } else {
+            for (int i = 0; i < accountNumber.length(); i++) {
+                if (!Character.isDigit(accountNumber.charAt(i))) {
+                    LOGGER.error("Character [{}] is wrong: {}", accountNumber.charAt(i), accountNumber);
+                    return false;
+                }
+            }
+        }
+        LOGGER.info("Bank account {} is valid", accountNumber);
+        return true;
     }
 
     public void deposit(double amount) throws IllegalArgumentException {
@@ -43,9 +50,9 @@ public class BankAccount {
 
     public void withdraw(double amount) throws InsufficientFundsException, IllegalArgumentException {
         LOGGER.info("Withdrawing funds from your balance");
-        if (amount == 0) {
-            LOGGER.error("Error! You cannot withdraw 0 from your balance!");
-            throw new IllegalArgumentException("Attempt to withdraw 0");
+        if (amount <= 0) {
+            LOGGER.error("Error! You cannot withdraw {} from your balance!", amount);
+            throw new IllegalArgumentException("Attempt to withdraw: " + amount);
         }
         if (amount > balance) {
             LOGGER.error("Insufficient funds on balance");
