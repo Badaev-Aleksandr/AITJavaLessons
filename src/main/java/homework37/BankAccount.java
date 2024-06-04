@@ -23,6 +23,7 @@ public class BankAccount {
 
     public boolean isBankAccountValid(String accountNumber) {
         LOGGER.info("Checking number: {}", accountNumber);
+        accountNumber = accountNumber.trim();
         if (accountNumber.length() != 10) {
             LOGGER.error("Invalid account number: {}", accountNumber);
             return false;
