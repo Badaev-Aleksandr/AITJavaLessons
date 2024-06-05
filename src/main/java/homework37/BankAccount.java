@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
 public class BankAccount {
     private static final Logger LOGGER = LoggerFactory.getLogger(BankAccount.class);
 
-    private double balance;
+    private double balance = 0;
     private String accountNumber;
 
     public BankAccount() {
