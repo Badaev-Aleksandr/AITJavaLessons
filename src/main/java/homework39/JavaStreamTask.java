@@ -9,11 +9,13 @@ import java.io.InputStream;
 @Slf4j
 public class JavaStreamTask {
     public static void main(String[] args) {
+
         InputStream inputStreamOne = null;
         InputStream inputStreamTwo = null;
         try {
             inputStreamOne = new FileInputStream("poem.txt");
             symbolSearch_A_B_C(inputStreamOne);
+
         } catch (IOException exception) {
             log.error(exception.getMessage());
         }
@@ -75,16 +77,16 @@ public class JavaStreamTask {
         int data1;
         int data2;
         int position = 0;
-        boolean identical = false;
+        boolean mismatch = false;
         // запускаем цикл сравнения двух файлов по каждому символу
         while ((data1 = inputStreamOne.read()) != -1 && (data2 = inputStreamTwo.read()) != -1) {
             position++;
             if (data1 != data2) {
                 log.error("Mismatch in position {}", position);
-                identical = true;
+                mismatch = true;
             }
         }
-        if (!identical) {
+        if (!mismatch) {
             return true;
         }
         return false;
