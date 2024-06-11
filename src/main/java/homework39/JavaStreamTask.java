@@ -5,6 +5,8 @@ import lombok.extern.slf4j.Slf4j;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.HashMap;
+import java.util.Map;
 
 @Slf4j
 public class JavaStreamTask {
@@ -14,7 +16,7 @@ public class JavaStreamTask {
         InputStream inputStreamTwo = null;
         try {
             inputStreamOne = new FileInputStream("poem.txt");
-            symbolSearch_A_B_C(inputStreamOne);
+            symbolSearch(inputStreamOne);
 
         } catch (IOException exception) {
             log.error(exception.getMessage());
@@ -22,7 +24,7 @@ public class JavaStreamTask {
         try {
             inputStreamTwo = new FileInputStream("poem_copy_exception.txt");
             inputStreamOne = new FileInputStream("poem.txt");
-            // проверяем файлы на идентичность
+           //  проверяем файлы на идентичность
             if (identical(inputStreamOne, inputStreamTwo)) {
                 log.info("Files are identical");
             } else {
@@ -45,32 +47,24 @@ public class JavaStreamTask {
         }
     }
 
-    public static void symbolSearch_A_B_C(InputStream inputStreamOne) throws IOException {
-        int counter_a = 0;
-        int counter_b = 0;
-        int counter_c = 0;
-        char a = 'a';
-        char b = 'b';
-        char c = 'c';
-        int data;
-        //запускаем цикл чтения файла на поиск нужных нам символов в тесте
-        while ((data = inputStreamOne.read()) != -1) {
+    public static void symbolSearch(InputStream inputStreamOne) throws IOException {
+        Map<Character, Integer> symbolMap = new HashMap<>();
 
-            if (((char) data) == a) {
-                counter_a++;
-            }
-            if (((char) data) == b) {
-                counter_b++;
-            }
-            if (((char) data) == c) {
-                counter_c++;
-            }
+        int data;
+        //запускаем цикл чтения файла на поиск символов в тесте
+        while ((data = inputStreamOne.read()) != -1) {
+            char character = (char) data;
+            symbolMap.put(character, symbolMap.getOrDefault(character, 0) + 1);
+
             // Выводим внутренности файла на экран
             System.out.print((char) data);
         }
         System.out.println(" ");
-        // вывод на экран количество встречающихся символов в файле a, b, c
-        log.info("Character counter: 'a' = {}, 'b' = {}, 'c' = {}", counter_a, counter_b, counter_c);
+        // вывод на экран количество встречающихся символов в файле
+        for (Map.Entry<Character, Integer> symbol : symbolMap.entrySet()) {
+            log.info("Symbol {}, quantity {}", symbol.getKey(), symbol.getValue());
+        }
+
     }
 
     public static boolean identical(InputStream inputStreamOne, InputStream inputStreamTwo) throws IOException {
