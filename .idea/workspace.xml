@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c42a532-1936-4e48-a45e-221c546f76c6" name="Changes" comment="homework 38 was added">
-      <change afterPath="$PROJECT_DIR$/passwords.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson39/JavaIOMuster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson39/JavaIOMusterSkipBites.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson39/JavaIOMusterStreamArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson39/TestTimeDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/io_api.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/lesson39/TestTimeDateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5c42a532-1936-4e48-a45e-221c546f76c6" name="Changes" comment="lesson 40 was added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson41/ConsoleTextSaver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson41/ListPersonSerialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson41/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson41/PersonDeserializing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson41/PersonSerializing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson41/TaskBufferedReaderWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson41/TaskCharacterStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson41/TaskFileInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/stream_api.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d9d91fe76b2bb46e4380baa7db62faa7f576d38c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/9/d9d91fe76b2bb46e4380baa7db62faa7f576d38c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -21,7 +23,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/consultation0903/Changetypes.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/consultation0903/FakerUtil.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/consultation0903/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/time_api.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/time_api.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/io_api.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/io_api.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +42,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="homework39" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -98,6 +100,7 @@
     "Application.Changetypes.executor": "Run",
     "Application.CheckedExceptionMuster.executor": "Run",
     "Application.ComparisonOfNumbers.executor": "Run",
+    "Application.ConsoleTextSaver.executor": "Run",
     "Application.CosmeticProductTest.executor": "Run",
     "Application.CosmeticStoreTest.executor": "Run",
     "Application.DogRegistration.executor": "Run",
@@ -115,18 +118,23 @@
     "Application.HashMapTask.executor": "Run",
     "Application.HashSetJava.executor": "Run",
     "Application.HomeWork05.executor": "Run",
+    "Application.JavaIOByteInputStream.executor": "Run",
+    "Application.JavaIOByteOutputStream.executor": "Run",
     "Application.JavaIOMuster.executor": "Run",
     "Application.JavaIOMusterSkipBites.executor": "Run",
     "Application.JavaIOMusterStreamArray.executor": "Run",
+    "Application.JavaIOOutput.executor": "Run",
     "Application.JavaMethods.executor": "Run",
     "Application.JavaMethodsTask01.executor": "Run",
     "Application.JavaPalindrome.executor": "Debug",
+    "Application.JavaStreamTask.executor": "Run",
     "Application.JavaStringMethods01.executor": "Run",
     "Application.JavaSwitchCase.executor": "Run",
     "Application.JavaTimeMuster.executor": "Run",
     "Application.LesseonsWork.executor": "Run",
     "Application.LesseonsWork02.executor": "Run",
     "Application.Lessonswork01.executor": "Run",
+    "Application.ListPersonSerialization.executor": "Run",
     "Application.LogesTest.executor": "Run",
     "Application.Loginscheck.executor": "Run",
     "Application.Main.executor": "Run",
@@ -142,6 +150,8 @@
     "Application.Operator.executor": "Run",
     "Application.Operators.executor": "Run",
     "Application.OutputOfNumbers.executor": "Run",
+    "Application.PersonDeserializing.executor": "Run",
+    "Application.PersonSerializing.executor": "Run",
     "Application.PersonTest.executor": "Run",
     "Application.PlayMovie.executor": "Run",
     "Application.SocialNetworkTest.executor": "Run",
@@ -158,6 +168,8 @@
     "Application.Task0502.executor": "Run",
     "Application.TaskArray.executor": "Run",
     "Application.TaskArrayList.executor": "Run",
+    "Application.TaskBufferedReaderWriter.executor": "Run",
+    "Application.TaskCharacterStream.executor": "Run",
     "Application.TaskDateTime.executor": "Run",
     "Application.TaskJavaHashSet.executor": "Run",
     "Application.Terst.executor": "Run",
@@ -178,6 +190,7 @@
     "Application.TestUser.executor": "Run",
     "Application.TestVechicle.executor": "Run",
     "Application.TestsWork.executor": "Run",
+    "Application.TextAnalyser.executor": "Run",
     "Application.TimeTask.executor": "Run",
     "Application.UncheckedExceptionMuster.executor": "Run",
     "Application.UserInteraction.executor": "Run",
@@ -302,10 +315,10 @@
     "ignore_missing_gitignore": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Development/AITJavaLessons/src/main/test",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "Ignore Files Support",
     "two.files.diff.last.used.folder": "C:/Development/AITJavaLessons/src/main/java/consultation0903"
   },
   "keyToStringList": {
@@ -327,7 +340,7 @@
       <recent name="homework02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaIOMusterSkipBites">
+  <component name="RunManager" selected="Application.ListPersonSerialization">
     <configuration name="Changetypes" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="consultation0903.Changetypes" />
       <module name="AITJavaLessons" />
@@ -341,12 +354,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaIOMuster" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson39.JavaIOMuster" />
+    <configuration name="ConsoleTextSaver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson41.ConsoleTextSaver" />
       <module name="AITJavaLessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson39.*" />
+          <option name="PATTERN" value="lesson41.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -354,12 +367,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaIOMusterSkipBites" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson39.JavaIOMusterSkipBites" />
+    <configuration name="ListPersonSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson41.ListPersonSerialization" />
       <module name="AITJavaLessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson39.*" />
+          <option name="PATTERN" value="lesson41.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -367,12 +380,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaIOMusterStreamArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson39.JavaIOMusterStreamArray" />
+    <configuration name="PersonDeserializing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson41.PersonDeserializing" />
       <module name="AITJavaLessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson39.*" />
+          <option name="PATTERN" value="lesson41.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -380,44 +393,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTimeDateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskBufferedReaderWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson41.TaskBufferedReaderWriter" />
       <module name="AITJavaLessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson39.*" />
+          <option name="PATTERN" value="lesson41.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson39" />
-      <option name="MAIN_CLASS_NAME" value="lesson39.TestTimeDateTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTimeDateTest.testDifferenceDaysNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskCharacterStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson41.TaskCharacterStream" />
       <module name="AITJavaLessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson39.*" />
+          <option name="PATTERN" value="lesson41.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson39" />
-      <option name="MAIN_CLASS_NAME" value="lesson39.TestTimeDateTest" />
-      <option name="METHOD_NAME" value="testDifferenceDaysNegative" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JavaIOMusterSkipBites" />
-        <item itemvalue="Application.JavaIOMusterStreamArray" />
-        <item itemvalue="Application.JavaIOMuster" />
-        <item itemvalue="JUnit.TestTimeDateTest" />
-        <item itemvalue="JUnit.TestTimeDateTest.testDifferenceDaysNegative" />
+        <item itemvalue="Application.ListPersonSerialization" />
+        <item itemvalue="Application.ConsoleTextSaver" />
+        <item itemvalue="Application.TaskBufferedReaderWriter" />
+        <item itemvalue="Application.TaskCharacterStream" />
+        <item itemvalue="Application.PersonDeserializing" />
       </list>
     </recent_temporary>
   </component>
@@ -429,46 +437,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705434879439</updated>
-    </task>
-    <task id="LOCAL-00060" summary="lesson31 was added">
-      <option name="closed" value="true" />
-      <created>1715516388640</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1715516388640</updated>
-    </task>
-    <task id="LOCAL-00061" summary="lesson31 was added">
-      <option name="closed" value="true" />
-      <created>1715545617521</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1715545617525</updated>
-    </task>
-    <task id="LOCAL-00062" summary="homework31 was updated">
-      <option name="closed" value="true" />
-      <created>1715700956804</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1715700956804</updated>
-    </task>
-    <task id="LOCAL-00063" summary="homework32 was added">
-      <option name="closed" value="true" />
-      <created>1716217809352</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1716217809352</updated>
-    </task>
-    <task id="LOCAL-00064" summary="consultation and Test was added">
-      <option name="closed" value="true" />
-      <created>1716217997618</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1716217997618</updated>
     </task>
     <task id="LOCAL-00065" summary="homework16 was updated">
       <option name="closed" value="true" />
@@ -822,7 +790,47 @@
       <option name="project" value="LOCAL" />
       <updated>1717681980490</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="lesson 39 was added">
+      <option name="closed" value="true" />
+      <created>1717780227912</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1717780227912</updated>
+    </task>
+    <task id="LOCAL-00110" summary="homework 39 was added">
+      <option name="closed" value="true" />
+      <created>1717967609541</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1717967609541</updated>
+    </task>
+    <task id="LOCAL-00111" summary="in the identical method the identical variable was renamed to mismatch">
+      <option name="closed" value="true" />
+      <created>1718111468654</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1718111468654</updated>
+    </task>
+    <task id="LOCAL-00112" summary="homework 39 has been corrected">
+      <option name="closed" value="true" />
+      <created>1718117264441</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1718117264441</updated>
+    </task>
+    <task id="LOCAL-00113" summary="lesson 40 was added">
+      <option name="closed" value="true" />
+      <created>1718886948874</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1718886948874</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -856,11 +864,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lesson30 was added" />
-    <MESSAGE value="lesson16 was added" />
-    <MESSAGE value="resources was added" />
-    <MESSAGE value="homework33 was added" />
-    <MESSAGE value="homework33 first task completed" />
     <MESSAGE value="homework33 class WeatherDateTest was updated" />
     <MESSAGE value="Lesson Logging was added" />
     <MESSAGE value="pom.xlm was updated" />
@@ -881,7 +884,12 @@
     <MESSAGE value="homework 37 BankAccount was updated" />
     <MESSAGE value="lesson 38 was added" />
     <MESSAGE value="homework 38 was added" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 38 was added" />
+    <MESSAGE value="lesson 39 was added" />
+    <MESSAGE value="homework 39 was added" />
+    <MESSAGE value="in the identical method the identical variable was renamed to mismatch" />
+    <MESSAGE value="homework 39 has been corrected" />
+    <MESSAGE value="lesson 40 was added" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 40 was added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

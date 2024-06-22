@@ -1,0 +1,5 @@
+Es ist nicht alles Gold, was glänzt
+
+Check FileReader and FileWriter
+
+Check BufferedReader and BufferedWriter

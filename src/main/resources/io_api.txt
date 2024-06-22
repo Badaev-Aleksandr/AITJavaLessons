@@ -1,7 +1,31 @@
-int read()--> читает один байт из входного потока, если достигнут конец потока, возвращает -1
-int read(byte[] b, int off, int len) --> читает до len из входного массива начиная с позиции off. Возвращает количество
+InputStream
+int read() --> читает один байт из входного потока, если достигнут конец потока, возвращает  -1
+int read(byte[] b, int off, int len) --> читает до len из входного массива начиная с позиции off.  Возвращает количество
 считанных байтов или -1 если достигнут конец его потока
-int read (byte[] b) --> считывает до b.length байтов из входного потока или возвращает -1 если достигнет конец потока
-long skip(long n) --> пропускает n-байтов в этом потоке
-int available () --> возвращает оценку количества байта, которые могут быть прочитаны этого входящего потока
-void close()--> закрывает входной поток и освобождает все с тим связанные ресурсы
+int read(byte[] b) считывает до b.length байтов из входного потока или возвращает -1 если достигнут конец потока
+long skip(long n) --> пропускает n-байтов в этой входном потоке
+int available() --> возвращает оценку количества байтов, котрые могут быть прочитаный этого входящего потока
+void close()--> закрывает входной поток и освобождает все с этим связанные ресурсы
+OutputStream
+void close()--> закрывает поток и освобождает все с этим связанные ресурсы
+void write(int b)--> записывает в выходной поток один байт, который передается как аргумент и представлен int b
+void write(byte[] b, int off, int len)  --> записывает в выходной поток массив байтов равное len, из массива  b,
+ начиная с позиции byte[off]
+void write(byte[] b) --> записывает в выходной поток массив байтов byte[] b
+void flush() --> очищает буфер вывода, записывая все содержимое
+
+
+Ресурс ---> Обработка данных --> Destination (назначение)
+
+Ресурс --> InputStream/Reader --> Обработка данных --> OutputStream/Writer --> Destination (назначение)
+
+
+
+--------------------------------------------------------------------------------------------
+InputStream +            OutputStream  +                  Reader    +          Writer +
+FileInputStream +        FileOutputStream    +            FileReader   +       FileWriter +
+BufferedInputStream +     BufferedOutputStream    +        BufferedReader +     BufferedWriter +
+ByteArrayInputStream    ByteArrayOutputStream           CharArrayReader     CharArrayWriter
+DataInputStream         DataOutputStream                FilterReader        FilterWriter
+ObjectInputStream  +     ObjectOutputStream +
+
