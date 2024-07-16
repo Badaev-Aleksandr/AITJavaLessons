@@ -19,7 +19,7 @@ public class PatientsTestsFileWriter {
         do {
             try {
                 bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-                bufferedWriter = new BufferedWriter(new FileWriter("src/main/resources/patients_tests.txt", true));
+                bufferedWriter = new BufferedWriter(new FileWriter("src/main/resources/patients1_tests.txt", true));
 
                 System.out.println("Введите результаты медицинских анализов пациента");
                 System.out.println("ФИО пациента: ");

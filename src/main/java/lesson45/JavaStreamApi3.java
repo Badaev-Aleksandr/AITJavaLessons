@@ -27,9 +27,10 @@ public class JavaStreamApi3 {
 
         Optional<Integer> minInt = elementsInt.stream().min(Integer::compareTo);
         System.out.println(minInt.get());
-
+        System.out.println("----");
         Optional<Integer> resultFindFirst = elementsInt.stream().filter(x -> x > 5).findFirst();
         System.out.println(resultFindFirst.get());
+        System.out.println("----");
 
         //Найдите минимальное значение в списке целых чисел.
         List<Integer> numbers = Arrays.asList(-3, 1, 4, 1, 5, 9, 12);
